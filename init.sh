@@ -1,3 +1,0 @@
-luvit bot.lua
-pause
-
