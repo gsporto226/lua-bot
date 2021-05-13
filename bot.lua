@@ -13,7 +13,7 @@ local Logger = Discordia.Logger(4, '%F %T')
 local Enums = Discordia.enums
 local Config = Json.decode(fs.readFileSync('config.json'))
 
-local Token = ""
+local Token
 if _G["dev"] then Token = getenv("BOT_DEVTOKEN") else Token = getenv("BOT_TOKEN") end
 
 local insert,getn = table.insert,table.getn
@@ -55,6 +55,10 @@ end
 
 
 coroutine.wrap(function()
+	if not Token then
+		print("Unable to get token...")
+		return false
+	end
 	loadModules("./modules")
 	Commands:initCommands()
 
