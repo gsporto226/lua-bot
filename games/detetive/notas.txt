@@ -1,0 +1,3 @@
+O board e 24x25 quadrados
+36 primeiros quadrados num 6x6 = Cozinha
+3 a direita do bloco mais direito da cozinha, num 

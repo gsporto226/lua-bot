@@ -1,0 +1,13 @@
+  {
+    "name": "airplane",
+    "roles": [
+      "first class passenger",
+      "air marshall",
+      "mechanic",
+      "air hostess",
+      "copilot",
+      "captain",
+      "economy class passenger"
+    ]
+  }
+  

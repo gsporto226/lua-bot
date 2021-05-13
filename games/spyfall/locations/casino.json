@@ -1,0 +1,12 @@
+  {
+    "name": "casino",
+    "roles": [
+      "bartender",
+      "head security guard",
+      "bouncer",
+      "manager",
+      "hustler",
+      "dealer",
+      "gambler"
+    ]
+  }

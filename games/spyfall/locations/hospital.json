@@ -1,0 +1,12 @@
+  {
+    "name": "hospital",
+    "roles": [
+      "nurse",
+      "doctor",
+      "anesthesiologist",
+      "intern",
+      "therapist",
+      "surgeon",
+      "patient"
+    ]
+  }

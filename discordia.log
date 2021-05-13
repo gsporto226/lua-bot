@@ -1,0 +1,14 @@
+2021-04-24 14:30:39 | [INFO]    | Discordia 2.5.2
+2021-04-24 14:30:39 | [INFO]    | Connecting to Discord...
+2021-04-24 14:30:39 | [INFO]    | Authenticated as BotDev#8621
+2021-04-24 14:30:40 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-04-24 14:30:40 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-04-24 14:30:40 | [INFO]    | Shard 0 : Received HELLO (["gateway-prd-main-rq37",{"micros":0.0}])
+2021-04-24 14:30:40 | [INFO]    | Shard 0 : Received READY (["gateway-prd-main-rq37",{"micros":109939,"calls":["discord-sessions-prd-2-126",{"micros":108863,"calls":["start_session",{"micros":75301,"calls":["api-prd-main-5r8m",{"micros":69149,"calls":["get_user",{"micros":6739},"add_authorized_ip",{"micros":26292},"get_guilds",{"micros":5212},"coros_wait",{"micros":1}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":19795,"calls":[]}]}]}])
+2021-04-24 15:48:45 | [INFO]    | Discordia 2.5.2
+2021-04-24 15:48:45 | [INFO]    | Connecting to Discord...
+2021-04-24 15:48:45 | [INFO]    | Authenticated as BotDev#8621
+2021-04-24 15:48:46 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-04-24 15:48:46 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-04-24 15:48:46 | [INFO]    | Shard 0 : Received HELLO (["gateway-prd-main-g6nk",{"micros":0.0}])
+2021-04-24 15:48:47 | [INFO]    | Shard 0 : Received READY (["gateway-prd-main-g6nk",{"micros":39568,"calls":["discord-sessions-prd-2-38",{"micros":38209,"calls":["start_session",{"micros":32938,"calls":["api-prd-main-5bx5",{"micros":29887,"calls":["get_user",{"micros":3160},"add_authorized_ip",{"micros":1629},"get_guilds",{"micros":4280},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":506,"calls":[]}]}]}])
