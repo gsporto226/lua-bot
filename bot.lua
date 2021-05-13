@@ -13,9 +13,8 @@ local Logger = Discordia.Logger(4, '%F %T')
 local Enums = Discordia.enums
 local Config = Json.decode(fs.readFileSync('config.json'))
 
-local Token = "ODM1NTY2NTI1NjM2MTQ5MjU5.YIRT9w.hvoSBWP2nE_hYzh2LrX0ZBOHTSQ"
-
---if _G["dev"] then Token = getenv("BOT_DEVTOKEN") else Token = getenv("BOT_TOKEN") end
+local Token = ""
+if _G["dev"] then Token = getenv("BOT_DEVTOKEN") else Token = getenv("BOT_TOKEN") end
 
 local insert,getn = table.insert,table.getn
 local readFileSync,scanDirSync = fs.readFileSync,fs.scandirSync
