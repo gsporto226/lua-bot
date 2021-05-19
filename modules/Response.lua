@@ -12,8 +12,27 @@ local getn, insert = table.getn,table.insert
 
 local Response = {
 	name = "Response",
+	content = {
+		studioResponse = function (studio, response)
+			return "```["..studio.."] "..response.."```"
+		end
+	},
 	embeds = 
 	{
+		successCommand = function(command, description)
+			local embed = {
+				title = "*"..command.."*",
+				color = 1,
+				description = description,
+				timestamp = discordia.Date():toISO('T', 'Z'),
+				footer = 
+				{
+					icon_url = "https://cdn.icon-icons.com/icons2/1506/PNG/32/emblemok_103757.png",
+					text = "^.^"
+				}
+			}
+			return embed
+		end,
 		spyfall = {
 			--SPYFALL
 			successFeedback = function(description)
@@ -57,7 +76,7 @@ local Response = {
 	    		fields = {},
 	    		timestamp = discordia.Date():toISO('T', 'Z')
 	  		}
-	  		for k,v in pairs(list) do
+			for k,v in pairs(list) do
 				insert(embed.fields,{name=k, value = v})
 			end
 			logger:log(enums.logLevel.debug, "Key value list embed")

@@ -66,6 +66,7 @@ end
 function Commands:Run(command, args,rawarg)
 	local success = false
 	local reason = "Command does not exist!"
+	local command = string.lower(command)
 	local s,e = pcall(function() success, reason = self._cmds[command]:callback(args,rawarg) end)
 	reason = reason or ("Unknown error while attempting to run command")
 	print(success, reason)

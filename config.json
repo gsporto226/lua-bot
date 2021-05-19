@@ -1,8 +1,11 @@
 {
 	"Defaults" : 
 	{
-		"DevPrefix" : "-",
-		"Prefix" : "!",
-		"DefaultTTS" : "Você esqueceu o texto arrombado!... nove? noventa e nove? Não esqueça de por o texto entre aspas!"
+		"DevPrefix" : "+",
+		"Prefix" : "-",
+		"DefaultTTS" : "Você esqueceu o texto arrombado!... nove? noventa e nove? Não esqueça de por o texto entre aspas!",
+		"ClipsFolder" : "./resources/soundbox/",
+		"ConfigFolder" : "./resources/config/",
+		"TerrariaFolder" : "./resources/terraria/"
 	}
 }

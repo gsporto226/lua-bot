@@ -1,17 +1,8 @@
-Profiler = {lol=0}
+Profiler = {}
 
-
-function Profiler:start()
-	return setmetatable({stop = function() return os.clock()-sTime end},{__call = function() sTime = os.clock() end })
+function Profiler:start(name)
+	return {name = name, sTime = self.Deps.Commons.uv.hrtime(), stop = function(self) print("[Profiler]" .. self.name .. " concluded in " .. (self.Deps.Commons.uv.hrtime() - self.sTime)/1000000 .. "ms") return end}
 end
-
-function Profiler:sleep(a)
-	local t = os.clock()
-	while os.clock() < t+a do
-		print(os.clock().." " .. t+a)
-	end
-end
---MODIFY THE USELESS SHIT ASDASDASD
 
 function Profiler:__init()
 end
