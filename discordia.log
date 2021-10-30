@@ -12,3 +12,205 @@
 2021-04-24 15:48:46 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
 2021-04-24 15:48:46 | [INFO]    | Shard 0 : Received HELLO (["gateway-prd-main-g6nk",{"micros":0.0}])
 2021-04-24 15:48:47 | [INFO]    | Shard 0 : Received READY (["gateway-prd-main-g6nk",{"micros":39568,"calls":["discord-sessions-prd-2-38",{"micros":38209,"calls":["start_session",{"micros":32938,"calls":["api-prd-main-5bx5",{"micros":29887,"calls":["get_user",{"micros":3160},"add_authorized_ip",{"micros":1629},"get_guilds",{"micros":4280},"coros_wait",{"micros":2}]}]},"guilds_connect",{"micros":1,"calls":[]},"presence_connect",{"micros":506,"calls":[]}]}]}])
+2021-10-30 00:40:42 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:40:42 | [INFO]    | Connecting to Discord...
+2021-10-30 00:40:43 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:40:43 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:40:44 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:40:44 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:40:44 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:43:21 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:43:21 | [INFO]    | Connecting to Discord...
+2021-10-30 00:43:22 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:43:22 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:43:22 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:43:22 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:43:22 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:47:42 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:47:42 | [INFO]    | Connecting to Discord...
+2021-10-30 00:47:43 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:47:43 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:47:43 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:47:43 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:47:43 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:47:51 | [ERROR]   | 403 - Forbidden : POST https://discord.com/api/v7/channels/200827756668387328/messages
+2021-10-30 00:48:19 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:48:19 | [INFO]    | Connecting to Discord...
+2021-10-30 00:48:19 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:48:19 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:48:19 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:48:19 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:48:20 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:49:10 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:49:10 | [INFO]    | Connecting to Discord...
+2021-10-30 00:49:10 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:49:10 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:49:10 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:49:10 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:49:11 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:49:37 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:49:37 | [INFO]    | Connecting to Discord...
+2021-10-30 00:49:37 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:49:37 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:49:38 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:49:38 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:49:38 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:50:08 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:50:08 | [INFO]    | Connecting to Discord...
+2021-10-30 00:50:08 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:50:08 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:50:08 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:50:08 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:50:09 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:50:12 | [ERROR]   | 403 - Forbidden : POST https://discord.com/api/v7/channels/200827756668387328/messages
+2021-10-30 00:50:40 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:50:40 | [INFO]    | Connecting to Discord...
+2021-10-30 00:50:40 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:50:40 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:50:40 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:50:40 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:50:41 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:50:44 | [ERROR]   | 403 - Forbidden : POST https://discord.com/api/v7/channels/200827756668387328/messages
+2021-10-30 00:50:58 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:50:58 | [INFO]    | Connecting to Discord...
+2021-10-30 00:50:59 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:50:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:50:59 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:50:59 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:50:59 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:51:02 | [ERROR]   | 403 - Forbidden : POST https://discord.com/api/v7/channels/200827756668387328/messages
+2021-10-30 00:51:20 | [INFO]    | Voice : Connected to wss://brazil9412.discord.media
+2021-10-30 00:51:20 | [INFO]    | Voice : Received HELLO
+2021-10-30 00:51:20 | [INFO]    | Voice : Received READY
+2021-10-30 00:53:05 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:53:05 | [INFO]    | Connecting to Discord...
+2021-10-30 00:53:06 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:53:06 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:53:06 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:53:06 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:53:06 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:53:10 | [ERROR]   | 403 - Forbidden : POST https://discord.com/api/v7/channels/200827756668387328/messages
+2021-10-30 00:53:18 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:53:18 | [INFO]    | Connecting to Discord...
+2021-10-30 00:53:19 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:53:19 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:53:19 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:53:19 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:53:19 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:53:21 | [ERROR]   | 400 - Bad Request : POST https://discord.com/api/v7/channels/200827756668387328/messages
+2021-10-30 00:53:43 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:53:43 | [INFO]    | Connecting to Discord...
+2021-10-30 00:53:43 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:53:43 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:53:44 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:53:44 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:53:44 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:53:46 | [ERROR]   | 403 - Forbidden : POST https://discord.com/api/v7/channels/200827756668387328/messages
+2021-10-30 00:55:57 | [INFO]    | Voice : Connected to wss://brazil9412.discord.media
+2021-10-30 00:55:57 | [INFO]    | Voice : Received HELLO
+2021-10-30 00:55:57 | [INFO]    | Voice : Received READY
+2021-10-30 00:58:32 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:58:32 | [INFO]    | Connecting to Discord...
+2021-10-30 00:58:32 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:58:32 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:58:33 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:58:33 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 00:58:33 | [INFO]    | Shard 0 : Received READY
+2021-10-30 00:58:42 | [INFO]    | Voice : Connected to wss://brazil9412.discord.media
+2021-10-30 00:58:42 | [INFO]    | Voice : Received HELLO
+2021-10-30 00:58:42 | [INFO]    | Voice : Received READY
+2021-10-30 00:59:59 | [INFO]    | Discordia 2.9.1
+2021-10-30 00:59:59 | [INFO]    | Connecting to Discord...
+2021-10-30 00:59:59 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 00:59:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 00:59:59 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 00:59:59 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 01:00:00 | [INFO]    | Shard 0 : Received READY
+2021-10-30 01:00:07 | [INFO]    | Voice : Connected to wss://brazil9412.discord.media
+2021-10-30 01:00:07 | [INFO]    | Voice : Received HELLO
+2021-10-30 01:00:07 | [INFO]    | Voice : Received READY
+2021-10-30 01:00:08 | [INFO]    | Voice : Disconnected
+2021-10-30 01:00:33 | [INFO]    | Discordia 2.9.1
+2021-10-30 01:00:33 | [INFO]    | Connecting to Discord...
+2021-10-30 01:00:33 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 01:00:33 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 01:00:33 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 01:00:33 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 01:00:34 | [INFO]    | Shard 0 : Received READY
+2021-10-30 01:00:41 | [INFO]    | Voice : Connected to wss://brazil9412.discord.media
+2021-10-30 01:00:41 | [INFO]    | Voice : Received HELLO
+2021-10-30 01:00:41 | [INFO]    | Voice : Received READY
+2021-10-30 01:00:42 | [INFO]    | Voice : Disconnected
+2021-10-30 01:01:16 | [INFO]    | Discordia 2.9.1
+2021-10-30 01:01:16 | [INFO]    | Connecting to Discord...
+2021-10-30 01:01:16 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 01:01:16 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 01:01:16 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 01:01:16 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 01:01:17 | [INFO]    | Shard 0 : Received READY
+2021-10-30 01:01:24 | [INFO]    | Voice : Connected to wss://brazil9412.discord.media
+2021-10-30 01:01:24 | [INFO]    | Voice : Received HELLO
+2021-10-30 01:01:24 | [INFO]    | Voice : Received READY
+2021-10-30 01:01:25 | [INFO]    | Voice : Disconnected
+2021-10-30 01:01:47 | [INFO]    | Discordia 2.9.1
+2021-10-30 01:01:47 | [INFO]    | Connecting to Discord...
+2021-10-30 01:01:47 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 01:01:47 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 01:01:47 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 01:01:47 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 01:01:48 | [INFO]    | Shard 0 : Received READY
+2021-10-30 01:01:57 | [INFO]    | Voice : Connected to wss://brazil9412.discord.media
+2021-10-30 01:01:57 | [INFO]    | Voice : Received HELLO
+2021-10-30 01:01:57 | [INFO]    | Voice : Received READY
+2021-10-30 01:01:59 | [INFO]    | Voice : Disconnected
+2021-10-30 01:05:48 | [INFO]    | Discordia 2.9.1
+2021-10-30 01:05:48 | [INFO]    | Connecting to Discord...
+2021-10-30 01:05:49 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 01:05:49 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 01:05:49 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 01:05:49 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 01:05:49 | [INFO]    | Shard 0 : Received READY
+2021-10-30 01:05:57 | [INFO]    | Voice : Connected to wss://brazil9412.discord.media
+2021-10-30 01:05:57 | [INFO]    | Voice : Received HELLO
+2021-10-30 01:05:57 | [INFO]    | Voice : Received READY
+2021-10-30 01:05:59 | [ERROR]   | 400 - Bad Request : POST https://discord.com/api/v7/channels/404771348452474892/messages
+2021-10-30 01:06:00 | [INFO]    | Voice : Disconnected
+2021-10-30 01:08:40 | [INFO]    | Voice : Connected to wss://brazil9412.discord.media
+2021-10-30 01:08:40 | [INFO]    | Voice : Received HELLO
+2021-10-30 01:08:40 | [INFO]    | Voice : Received READY
+2021-10-30 01:08:42 | [ERROR]   | 400 - Bad Request : POST https://discord.com/api/v7/channels/404771348452474892/messages
+2021-10-30 01:08:43 | [INFO]    | Voice : Disconnected
+2021-10-30 01:09:23 | [INFO]    | Discordia 2.9.1
+2021-10-30 01:09:23 | [INFO]    | Connecting to Discord...
+2021-10-30 01:09:24 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 01:09:24 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 01:09:24 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 01:09:24 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 01:09:24 | [INFO]    | Shard 0 : Received READY
+2021-10-30 01:09:29 | [INFO]    | Voice : Connected to wss://brazil9412.discord.media
+2021-10-30 01:09:29 | [INFO]    | Voice : Received HELLO
+2021-10-30 01:09:29 | [INFO]    | Voice : Received READY
+2021-10-30 01:09:31 | [ERROR]   | 400 - Bad Request : POST https://discord.com/api/v7/channels/404771348452474892/messages
+2021-10-30 01:09:32 | [INFO]    | Voice : Disconnected
+2021-10-30 01:11:14 | [INFO]    | Discordia 2.9.1
+2021-10-30 01:11:14 | [INFO]    | Connecting to Discord...
+2021-10-30 01:11:15 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 01:11:15 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 01:11:15 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 01:11:15 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 01:11:15 | [INFO]    | Shard 0 : Received READY
+2021-10-30 01:11:21 | [INFO]    | Voice : Connected to wss://brazil3842.discord.media
+2021-10-30 01:11:21 | [INFO]    | Voice : Received HELLO
+2021-10-30 01:11:21 | [INFO]    | Voice : Received READY
+2021-10-30 01:11:38 | [INFO]    | Discordia 2.9.1
+2021-10-30 01:11:38 | [INFO]    | Connecting to Discord...
+2021-10-30 01:11:38 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 01:11:38 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 01:11:38 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 01:11:38 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 01:11:38 | [INFO]    | Shard 0 : Received READY
+2021-10-30 01:11:56 | [INFO]    | Voice : Connected to wss://brazil9412.discord.media
+2021-10-30 01:11:56 | [INFO]    | Voice : Received HELLO
+2021-10-30 01:11:56 | [INFO]    | Voice : Received READY
+2021-10-30 01:12:04 | [WARNING] | Voice : 4014 - Disconnected.
+2021-10-30 01:12:04 | [INFO]    | Voice : Disconnected

@@ -19,6 +19,7 @@ end
 
 --[=[
 @m getAvatarURL
+@t mem
 @op size number
 @op ext string
 @r string
@@ -42,6 +43,7 @@ end
 
 --[=[
 @m getDefaultAvatarURL
+@t mem
 @op size number
 @r string
 @d Returns a URL that can be used to view the user's default avatar.
@@ -57,6 +59,7 @@ end
 
 --[=[
 @m getPrivateChannel
+@t http
 @r PrivateChannel
 @d Returns a private channel that can be used to communicate with the user. If the
 channel is not cached an HTTP request is made to open one.
@@ -79,6 +82,7 @@ end
 
 --[=[
 @m send
+@t http
 @p content string/table
 @r Message
 @d Equivalent to `User:getPrivateChannel():send(content)`
@@ -94,6 +98,7 @@ end
 
 --[=[
 @m sendf
+@t http
 @p content string
 @r Message
 @d Equivalent to `User:getPrivateChannel():sendf(content)`
@@ -168,15 +173,14 @@ end
 --[=[@p mutualGuilds FilteredIterable A iterable cache of all guilds where this user shares a membership with the
 current user. The guild must be cached on the current client and the user's
 member object must be cached in that guild in order for it to appear here.]=]
-local _mutual_guilds = setmetatable({}, {__mode = 'v'})
 function get.mutualGuilds(self)
-	if not _mutual_guilds[self] then
+	if not self._mutual_guilds then
 		local id = self._id
-		_mutual_guilds[self] = FilteredIterable(self.client._guilds, function(g)
+		self._mutual_guilds = FilteredIterable(self.client._guilds, function(g)
 			return g._members:get(id)
 		end)
 	end
-	return _mutual_guilds[self]
+	return self._mutual_guilds
 end
 
 return User

@@ -33,6 +33,10 @@ function YoutubeProcess:__init(url)
 			stdio = {0, self._ytstdou, 2},
 		}, onExit)
 	else
+		uv.spawn('youtube-dl', {
+			args = {url,'-f','bestaudio', '-o','-','-q'},
+			stdio = {0, self._ytstdou, 2},
+		}, onExit)
 		self._youtubeProcess = uv.spawn('youtube-dl', {
 			args = {url,'-f','bestaudio', '-o','-','-q'},
 			stdio = {0, self._ytstdou, 2},
@@ -81,8 +85,12 @@ function YoutubeProcess:read(n)
 end
 
 function YoutubeProcess:close()
-	self._ffmpegProcess:kill()
-	self._youtubeProcess:kill()
+	if (self._ffmpegProcess) then
+		self._ffmpegProcess:kill()
+	end
+	if (self._youtubeProcess) then
+		self._youtubeProcess:kill()
+	end
 	if not self._stdout:is_closing() then
 		self._stdout:close()
 	end

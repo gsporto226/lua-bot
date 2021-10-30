@@ -18,9 +18,10 @@ end
 
 --[=[
 @m createTextChannel
+@t http
 @p name string
 @r GuildTextChannel
-@d Creates a new GuildTextChannel with this category as it's parent. `Guild:createTextChannel(name)`
+@d Creates a new GuildTextChannel with this category as it's parent. Similar to `Guild:createTextChannel(name)`
 ]=]
 function GuildCategoryChannel:createTextChannel(name)
 	local guild = self._parent
@@ -38,6 +39,7 @@ end
 
 --[=[
 @m createVoiceChannel
+@t http
 @p name string
 @r GuildVoiceChannel
 @d Creates a new GuildVoiceChannel with this category as it's parent. Similar to `Guild:createVoiceChannel(name)`
@@ -56,28 +58,26 @@ function GuildCategoryChannel:createVoiceChannel(name)
 	end
 end
 
---[=[@p textChannels FilteredIterable Returns all textChannels in the Category]=]
-local _text_channels = setmetatable({}, {__mode = 'v'})
+--[=[@p textChannels FilteredIterable Iterable of all textChannels in the Category.]=]
 function get.textChannels(self)
-	if not _text_channels[self] then
+	if not self._text_channels then
 		local id = self._id
-		_text_channels[self] = FilteredIterable(self._parent._text_channels, function(c)
+		self._text_channels = FilteredIterable(self._parent._text_channels, function(c)
 			return c._parent_id == id
 		end)
 	end
-	return _text_channels[self]
+	return self._text_channels
 end
 
---[=[@p voiceChannels FilteredIterable Returns all voiceChannels in the Category]=]
-local _voice_channels = setmetatable({}, {__mode = 'v'})
+--[=[@p voiceChannels FilteredIterable Iterable of all voiceChannels in the Category.]=]
 function get.voiceChannels(self)
-	if not _voice_channels[self] then
+	if not self._voice_channels then
 		local id = self._id
-		_voice_channels[self] = FilteredIterable(self._parent._voice_channels, function(c)
+		self._voice_channels = FilteredIterable(self._parent._voice_channels, function(c)
 			return c._parent_id == id
 		end)
 	end
-	return _voice_channels[self]
+	return self._voice_channels
 end
 
 return GuildCategoryChannel

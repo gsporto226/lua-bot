@@ -166,7 +166,7 @@ wrap(function()
 					end
 				end
 				if self._currentlyPlaying.title and self._currentlyPlaying.duration then 
-					self._currentlyPlaying.textchannel:send{embed = Response.embeds.youtube.nowPlaying(self._currentlyPlaying)}
+					print(self._currentlyPlaying.textchannel:send{embed = Response.embeds.youtube.nowPlaying(self._currentlyPlaying)})
 				else
 					self._currentlyPlaying.infoNeedsBroadcast = true
 				end

@@ -2,9 +2,11 @@
 @c Member x UserPresence
 @d Represents a Discord guild member. Though one user may be a member in more than
 one guild, each presence is represented by a different member object associated
-with that guild.
+with that guild. Note that any method or property that exists for the User class is
+also available in the Member class.
 ]=]
 
+local json = require('json')
 local enums = require('enums')
 local class = require('class')
 local UserPresence = require('containers/abstract/UserPresence')
@@ -31,13 +33,11 @@ function Member:_load(data)
 	return self:_loadMore(data)
 end
 
-local _roles = setmetatable({}, {__mode = 'v'})
-
 function Member:_loadMore(data)
 	if data.roles then
 		local roles = #data.roles > 0 and data.roles or nil
-		if _roles[self] then
-			_roles[self]._array = roles
+		if self._roles then
+			self._roles._array = roles
 		else
 			self._roles_raw = roles
 		end
@@ -58,6 +58,7 @@ end
 
 --[=[
 @m getColor
+@t mem
 @r Color
 @d Returns a color object that represents the member's color as determined by
 its highest colored role. If the member has no colored roles, then the default
@@ -72,12 +73,13 @@ function Member:getColor()
 	return roles[1] and roles[1]:getColor() or Color()
 end
 
-local function has(a, b, admin)
-	return band(a, b) > 0 or admin and band(a, permission.administrator) > 0
+local function has(a, b)
+	return band(a, b) > 0
 end
 
 --[=[
 @m hasPermission
+@t mem
 @op channel GuildChannel
 @p perm Permissions-Resolvable
 @r boolean
@@ -106,6 +108,18 @@ function Member:hasPermission(channel, perm)
 	end
 
 	if self.id == guild.ownerId then
+		return true
+	end
+
+	local rolePermissions = guild.defaultRole.permissions
+
+	for role in self.roles:iter() do
+		if role.id ~= guild.id then -- just in case
+			rolePermissions = bor(rolePermissions, role.permissions)
+		end
+	end
+
+	if has(rolePermissions, permission.administrator) then
 		return true
 	end
 
@@ -153,24 +167,13 @@ function Member:hasPermission(channel, perm)
 
 	end
 
-	for role in self.roles:iter() do
-		if role.id ~= guild.id then -- just in case
-			if has(role.permissions, n, true) then
-				return true
-			end
-		end
-	end
-
-	if has(guild.defaultRole.permissions, n, true) then
-		return true
-	end
-
-	return false
+	return has(rolePermissions, n)
 
 end
 
 --[=[
 @m getPermissions
+@t mem
 @op channel GuildChannel
 @r Permissions
 @d Returns a permissions object that represents the member's total permissions for
@@ -239,6 +242,7 @@ end
 
 --[=[
 @m addRole
+@t http?
 @p id Role-ID-Resolvable
 @r boolean
 @d Adds a role to the member. If the member already has the role, then no action is
@@ -249,7 +253,7 @@ function Member:addRole(id)
 	id = Resolver.roleId(id)
 	local data, err = self.client._api:addGuildMemberRole(self._parent._id, self.id, id)
 	if data then
-		local roles = _roles[self] and _roles[self]._array or self._roles_raw
+		local roles = self._roles and self._roles._array or self._roles_raw
 		if roles then
 			insert(roles, id)
 		else
@@ -263,6 +267,7 @@ end
 
 --[=[
 @m removeRole
+@t http?
 @p id Role-ID-Resolvable
 @r boolean
 @d Removes a role from the member. If the member does not have the role, then no
@@ -273,7 +278,7 @@ function Member:removeRole(id)
 	id = Resolver.roleId(id)
 	local data, err = self.client._api:removeGuildMemberRole(self._parent._id, self.id, id)
 	if data then
-		local roles = _roles[self] and _roles[self]._array or self._roles_raw
+		local roles = self._roles and self._roles._array or self._roles_raw
 		if roles then
 			for i, v in ipairs(roles) do
 				if v == id then
@@ -297,6 +302,7 @@ end
 
 --[=[
 @m hasRole
+@t mem
 @p id Role-ID-Resolvable
 @r boolean
 @d Checks whether the member has a specific role. This will return true for the
@@ -305,7 +311,7 @@ guild's default role in addition to any explicitly assigned roles.
 function Member:hasRole(id)
 	id = Resolver.roleId(id)
 	if id == self._parent._id then return true end -- @everyone
-	local roles = _roles[self] and _roles[self]._array or self._roles_raw
+	local roles = self._roles and self._roles._array or self._roles_raw
 	if roles then
 		for _, v in ipairs(roles) do
 			if v == id then
@@ -318,6 +324,7 @@ end
 
 --[=[
 @m setNickname
+@t http
 @p nick string
 @r boolean
 @d Sets the member's nickname. This must be between 1 and 32 characters in length.
@@ -341,6 +348,7 @@ end
 
 --[=[
 @m setVoiceChannel
+@t http
 @p id Channel-ID-Resolvable
 @r boolean
 @d Moves the member to a new voice channel, but only if the member has an active
@@ -349,8 +357,8 @@ handling, the member's `voiceChannel` property will update asynchronously via
 WebSocket; not as a result of the HTTP request.
 ]=]
 function Member:setVoiceChannel(id)
-	id = Resolver.channelId(id)
-	local data, err = self.client._api:modifyGuildMember(self._parent._id, self.id, {channel_id = id})
+	id = id and Resolver.channelId(id)
+	local data, err = self.client._api:modifyGuildMember(self._parent._id, self.id, {channel_id = id or json.null})
 	if data then
 		return true
 	else
@@ -360,6 +368,7 @@ end
 
 --[=[
 @m mute
+@t http
 @r boolean
 @d Mutes the member in its guild.
 ]=]
@@ -375,6 +384,7 @@ end
 
 --[=[
 @m unmute
+@t http
 @r boolean
 @d Unmutes the member in its guild.
 ]=]
@@ -390,6 +400,7 @@ end
 
 --[=[
 @m deafen
+@t http
 @r boolean
 @d Deafens the member in its guild.
 ]=]
@@ -405,6 +416,7 @@ end
 
 --[=[
 @m undeafen
+@t http
 @r boolean
 @d Undeafens the member in its guild.
 ]=]
@@ -420,6 +432,7 @@ end
 
 --[=[
 @m kick
+@t http
 @p reason string
 @r boolean
 @d Equivalent to `Member.guild:kickUser(Member.user, reason)`
@@ -430,6 +443,7 @@ end
 
 --[=[
 @m ban
+@t http
 @p reason string
 @p days number
 @r boolean
@@ -441,6 +455,7 @@ end
 
 --[=[
 @m unban
+@t http
 @p reason string
 @r boolean
 @d Equivalent to `Member.guild:unbanUser(Member.user, reason)`
@@ -452,14 +467,14 @@ end
 --[=[@p roles ArrayIterable An iterable array of guild roles that the member has. This does not explicitly
 include the default everyone role. Object order is not guaranteed.]=]
 function get.roles(self)
-	if not _roles[self] then
+	if not self._roles then
 		local roles = self._parent._roles
-		_roles[self] = ArrayIterable(self._roles_raw, function(id)
+		self._roles = ArrayIterable(self._roles_raw, function(id)
 			return roles:get(id)
 		end)
 		self._roles_raw = nil
 	end
-	return _roles[self]
+	return self._roles
 end
 
 --[=[@p name string If the member has a nickname, then this will be equivalent to that nickname.
@@ -478,6 +493,12 @@ an ISO 8601 string plus microseconds when available. Member objects generated
 via presence updates lack this property.]=]
 function get.joinedAt(self)
 	return self._joined_at
+end
+
+--[=[@p premiumSince string/nil The date and time at which the current member boosted the guild, represented as
+an ISO 8601 string plus microseconds when available.]=]
+function get.premiumSince(self)
+	return self._premium_since
 end
 
 --[=[@p voiceChannel GuildVoiceChannel/nil The voice channel to which this member is connected in the current guild.]=]
