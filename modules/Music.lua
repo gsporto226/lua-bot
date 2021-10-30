@@ -135,6 +135,7 @@ function Music:stop(guildId)
 end
 
 function Music:skip(guildId)
+	local guild = self:getGuild(guildId)
 	if not guild.currentlyPlaying then return false, "There is nothing to skip"
 	else
 		guild.connection:stopStream()
