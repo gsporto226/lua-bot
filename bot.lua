@@ -5,7 +5,7 @@ local Json = require('json')
 local getenv = require('os').getenv
 
 --Global variables
-_G["dev"] = getenv("BOT_ISDEV") == "true" or true
+_G["dev"] = getenv("BOT_ISDEV") == "true" or false
 _G["GLOBAL_MAXMEM"] = tonumber(getenv("BOT_MAXMEM")) or 512 --In MBytes
 
 local Client = Discordia.Client()
