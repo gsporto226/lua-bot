@@ -12,7 +12,7 @@ local Object = {
 
 function Object.callback(self,args,rawarg)
 	if self.dependsOnMod then if not _G[self.dependsOnMod] then error("Youtube module not loaded, play command is disabled!") end end
-	return Music:stop()
+	return Music:stop(rawarg.guild.id)
 end
 
 function Object:__init()

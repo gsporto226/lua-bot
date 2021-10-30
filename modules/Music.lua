@@ -6,7 +6,8 @@ local getenv = require('os').getenv
 local wrap,running,resume,yield = coroutine.wrap, coroutine.running,coroutine.resume,coroutine.yield
 
 local Music = {
-	name = "Music"
+	name = "Music",
+	guilds = {}
 }
 
 
@@ -14,8 +15,28 @@ local Music = {
 local insert,remove = table.insert,table.remove
 --[[Music object = {title,url,requester,textchannel}]]
 --[[Queue = { index, musobject}]]
+--[[ Guild : {
+		queue = {}
+		currentlyPlaying = nil
+		history = {}
+		connection = nil,
+		soundObject = nil
+}]]
 
-function Music.addToQueue(self,args,requester,textchannel,voiceChannel)
+function Music:getGuild(id)
+	if not self.guilds[id] then
+		self.guilds[id] = {
+			queue = {},
+			currentlyPlaying = nil,
+			history = {},
+			connection = nil,
+			soundObject = nil
+		}
+	end
+	return self.guilds[id]
+end
+
+function Music.addToQueue(self, args, requester, textchannel, voiceChannel, guildId)
 	--FIRST WE SEE IF ITS A VALID URL OR SEARCH REQUEST THEN WE PUT IT IN THE QUEUE!
 
 	--Search for Arguments, remove them from the argument table and return a string literal
@@ -40,10 +61,11 @@ function Music.addToQueue(self,args,requester,textchannel,voiceChannel)
 	local soundObject = {url=nil,id=nil,title=nil,duration=nil,requester=requester,textchannel=textchannel,voicechannel=voiceChannel}
 	soundObject.url = YoutubeHelper:getURL(literal)
 	if not soundObject.url then print("F") return false, "Unable to find any media." end
-	insert(self._queue,soundObject)
-	if not self._currentlyPlaying then
-		self._currentlyPlaying = (remove(self._queue,1))
-		self:update()
+	local guild = self:getGuild(guildId)
+	insert(guild.queue,soundObject)
+	if not guild.currentlyPlaying then
+		guild.currentlyPlaying = (remove(guild.queue,1))
+		self:update(false, guildId)
 	end
 	local info = YoutubeHelper:getInfoFromURL(soundObject.url,soundObject)
 
@@ -94,27 +116,28 @@ function Music.addToQueue(self,args,requester,textchannel,voiceChannel)
 	return true--]]
 end
 
-function Music:stop()
+function Music:stop(guildId)
+	local guild = self:getGuild(guildId)
 	local s = true
 	local e 
 	wrap(function()
-		if not self._currentlyPlaying then s = false e = "There is nothing to stop" return 
+		if not guild.currentlyPlaying then s = false e = "There is nothing to stop" return 
 		else 
-			self._queue = {}
-			self._currentlyPlaying = nil
-			if self._connection then 
-				self._connection:stopStream()
-				self._connection = nil
+			guild.queue = {}
+			guild.currentlyPlaying = nil
+			if guild.connection then 
+				guild.connection:stopStream()
+				guild.connection = nil
 			end
 		end
 	end)()
 	return s,e
 end
 
-function Music:skip()
-	if not self._currentlyPlaying then return false, "There is nothing to skip"
+function Music:skip(guildId)
+	if not guild.currentlyPlaying then return false, "There is nothing to skip"
 	else
-		self._connection:stopStream()
+		guild.connection:stopStream()
 	end
 	return true
 end
@@ -129,52 +152,49 @@ end
 
 function Music:__init()
 	self._ytHelper = YoutubeHelper
-	self._queue = {}
-	self._currentlyPlaying = nil
-	self._history = {}
-	self._connection = nil
 	self.DEVKEY = getenv("YOUTUBE_KEY")
 	return Music
 end
 
-function Music:update(eos)
+function Music:update(eos, guildId)
 	--Check if there is a music queued to play right now
 	--if not eos then eos = false end
+	local guild = Music:getGuild(guildId)
 wrap(function()
 	if eos then
-		insert(self._history,self._currentlyPlaying)
-		self._currentlyPlaying = remove(self._queue,1)
-		if not self._currentlyPlaying then 
-			if self._connection then
-				self._connection:close() 
-				self._connection = nil 
+		insert(guild.history,guild.currentlyPlaying)
+		guild.currentlyPlaying = remove(guild.queue,1)
+		if not guild.currentlyPlaying then 
+			if guild.connection then
+				guild.connection:close() 
+				guild.connection = nil 
 			end
 			return false, "Queue is empty, closing connections!"
 		else
-			self:update()
+			self:update(false, guildId)
 		end
 	else
-		if self._currentlyPlaying then
-			if not self._connection then
-				self._connection = self._currentlyPlaying.voicechannel:join()
-				self:update()
+		if guild.currentlyPlaying then
+			if not guild.connection then
+				guild.connection = guild.currentlyPlaying.voicechannel:join()
+				self:update(false, guildId)
 			else
-				if self._history[#self._history] then
-					if not self._currentlyPlaying.voicechannel.id == self._history[#self._history].voicechannel.id then
-						self._connection:close()
-						self._connection = self._currentlyPlaying.voicechannel:join()
+				if guild.history[#guild.history] then
+					if not guild.currentlyPlaying.voicechannel.id == guild.history[#guild.history].voicechannel.id then
+						guild.connection:close()
+						guild.connection = guild.currentlyPlaying.voicechannel:join()
 					end
 				end
-				if self._currentlyPlaying.title and self._currentlyPlaying.duration then 
-					print(self._currentlyPlaying.textchannel:send{embed = Response.embeds.youtube.nowPlaying(self._currentlyPlaying)})
+				if guild.currentlyPlaying.title and guild.currentlyPlaying.duration then 
+					print(guild.currentlyPlaying.textchannel:send{embed = Response.embeds.youtube.nowPlaying(guild.currentlyPlaying)})
 				else
-					self._currentlyPlaying.infoNeedsBroadcast = true
+					guild.currentlyPlaying.infoNeedsBroadcast = true
 				end
-				self._connection:playYoutube(self._currentlyPlaying.url)
-				self:update(true)
+				guild.connection:playYoutube(guild.currentlyPlaying.url)
+				self:update(true, guildId)
 			end
 		else
-			self:update(true)
+			self:update(true, guildId)
 		end
 	end
 end)()
