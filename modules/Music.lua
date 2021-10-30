@@ -62,7 +62,8 @@ function Music.addToQueue(self, args, requester, textchannel, voiceChannel, guil
 	soundObject.url = YoutubeHelper:getURL(literal)
 	if not soundObject.url then print("F") return false, "Unable to find any media." end
 	local guild = self:getGuild(guildId)
-	insert(guild.queue,soundObject)
+	insert(guild.queue, soundObject)
+	self:warn(' inserted ',  soundObject ,' to guild ' .. guildId)
 	if not guild.currentlyPlaying then
 		guild.currentlyPlaying = (remove(guild.queue,1))
 		self:update(false, guildId)
@@ -145,14 +146,21 @@ end
 
 function Music:warn(string,info)
 	if not info then 
-		Logger:log(enums.logLevel.warning,("[Music] "..string))
+		self.Logger:log(self.Enums.logLevel.warning,("[Music] "..string))
 	else
-		Logger:log(enums.logLevel.debug, ("[Music] "..string))
+		self.Logger:log(self.Enums.logLevel.debug, ("[Music] "..string))
 	end
 end
 
 function Music:__init()
 	self._ytHelper = YoutubeHelper
+	self.Logger = self.Deps.Logger
+	self.Client = self.Deps.Client
+	self.Logger = self.Deps.Logger
+	self.Enums = self.Deps.Enums
+	self.Config = self.Deps.Config
+	self.Discordia = self.Deps.Discordia
+	self.Json = self.Deps.Json
 	self.DEVKEY = getenv("YOUTUBE_KEY")
 	return Music
 end
@@ -187,7 +195,7 @@ wrap(function()
 					end
 				end
 				if guild.currentlyPlaying.title and guild.currentlyPlaying.duration then 
-					print(guild.currentlyPlaying.textchannel:send{embed = Response.embeds.youtube.nowPlaying(guild.currentlyPlaying)})
+					guild.currentlyPlaying.textchannel:send{embed = Response.embeds.youtube.nowPlaying(guild.currentlyPlaying)}
 				else
 					guild.currentlyPlaying.infoNeedsBroadcast = true
 				end

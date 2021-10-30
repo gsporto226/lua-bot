@@ -4,6 +4,7 @@ local logger
 local enums
 local http = require('coro-http')
 local yield,wrap,resume,running = coroutine.yield,coroutine.wrap,coroutine.resume,coroutine.running
+local p = require('pretty-print').prettyPrint
 
 local TTS = {
     request_url = "https://us-central1-sunlit-context-217400.cloudfunctions.net/streamlabs-tts",
@@ -28,18 +29,19 @@ local function request(voice, text)
         assert(resume(thread))
     end)()
     yield()
+    p(ojb)
     return ojb
 end
 
 
-function TTS.request(args, voice, text)
+function TTS.request(args, voice, text, rawargs)
     if not args.msg.member.voiceChannel then return false, "You're not in a voice channel inside this discord guild!" end
     if text == "" then text = TTS.defaultts end
     local url = request(voice, text)
     if url.error then return false, ("TTS service returned error code " .. url.error) end
     if not url then return false, ("Was not able to fetch tts with voice " .. voice) end
     local arguments = {url}
-	return Music:addToQueue(arguments,args.msg.author,args.msg.channel,args.msg.member.voiceChannel)
+	return Music:addToQueue(arguments, args.msg.author, args.msg.channel, args.msg.member.voiceChannel, rawargs.guild.id)
 end
 
 function TTS:__init()

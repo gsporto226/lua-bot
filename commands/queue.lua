@@ -9,7 +9,7 @@ local Object = {
 
 function Object.callback(self,args,rawarg)
 	local i = 1 -- Page index
-	local embed=Response.embeds.youtube.queueList(Music._queue,i)
+	local embed=Response.embeds.youtube.queueList(Music:getGuild(rawarg.guild.id).queue, i)
 
 	local msg = args.msg:reply{embed = embed} -- Msg object
 	
@@ -30,9 +30,9 @@ function Object.callback(self,args,rawarg)
 
 
 
-		if i*12 >= #Music._queue then addButton() print("Index is bigger than queue, queue is "..#Music._queue) end 
+		if i*12 >= #Music:getGuild(args[1].guild.id).queue then addButton() print("Index is bigger than queue, queue is "..#Music:getGuild(args[1].guild.id).queue) end 
 		i = i + 1
-		local emb = Response.embeds.youtube.queueList(Music._queue,i)
+		local emb = Response.embeds.youtube.queueList(Music:getGuild(args[1].guild.id).queue,i)
 		msg:setEmbed(emb)
 		addButton()
 		end)
@@ -44,7 +44,7 @@ function Object.callback(self,args,rawarg)
 
 		if i <= 1 then addButton() return false end
 		i = i - 1 
-		local emb = Response.embeds.youtube.queueList(Music._queue,i)
+		local emb = Response.embeds.youtube.queueList(Music:getGuild(args[1].guild.id).queue,i)
 		msg:setEmbed(emb)
 		addButton()
 		end)

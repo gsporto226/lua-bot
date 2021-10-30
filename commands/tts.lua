@@ -73,7 +73,7 @@ function Object.callback(self,args, rawarg)
 	end
 	if self.dependsOnMod then if not _G[self.dependsOnMod] then return false, "The Music module failed to load or was disabled" end end
 	local procceed = checkSubCommands(args)
-	if string and procceed then return TTS.request(args, self.values.voz, string)
+	if string and procceed then return TTS.request(args, self.values.voz, string, rawarg)
 	else return true end
 end
 
