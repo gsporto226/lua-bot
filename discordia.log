@@ -470,3 +470,287 @@
 2021-10-30 18:03:47 | [INFO]    | Voice : Received HELLO
 2021-10-30 18:03:47 | [INFO]    | Voice : Received READY
 2021-10-30 18:03:49 | [INFO]    | Voice : Disconnected
+2021-10-30 18:09:40 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:09:40 | [INFO]    | Connecting to Discord...
+2021-10-30 18:09:41 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:09:41 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:09:41 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:09:41 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:09:41 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:09:56 | [INFO]    | Voice : Connected to wss://brazil961.discord.media
+2021-10-30 18:09:56 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:09:56 | [INFO]    | Voice : Received READY
+2021-10-30 18:09:58 | [INFO]    | Voice : Disconnected
+2021-10-30 18:10:22 | [INFO]    | Voice : Connected to wss://brazil961.discord.media
+2021-10-30 18:10:22 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:10:22 | [INFO]    | Voice : Received READY
+2021-10-30 18:10:25 | [INFO]    | Voice : Disconnected
+2021-10-30 18:11:32 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:11:32 | [INFO]    | Connecting to Discord...
+2021-10-30 18:11:32 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:11:32 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:11:32 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:11:32 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:11:32 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:11:39 | [INFO]    | Voice : Connected to wss://brazil961.discord.media
+2021-10-30 18:11:39 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:11:39 | [INFO]    | Voice : Received READY
+2021-10-30 18:11:42 | [INFO]    | Voice : Disconnected
+2021-10-30 18:12:05 | [INFO]    | Voice : Connected to wss://brazil961.discord.media
+2021-10-30 18:12:05 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:12:05 | [INFO]    | Voice : Received READY
+2021-10-30 18:12:08 | [INFO]    | Voice : Disconnected
+2021-10-30 18:12:18 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:12:18 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:12:18 | [INFO]    | Voice : Received READY
+2021-10-30 18:12:21 | [INFO]    | Voice : Disconnected
+2021-10-30 18:14:35 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:14:35 | [INFO]    | Connecting to Discord...
+2021-10-30 18:14:36 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:14:36 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:14:36 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:14:36 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:14:36 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:14:39 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:14:39 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:14:39 | [INFO]    | Voice : Received READY
+2021-10-30 18:14:43 | [INFO]    | Voice : Disconnected
+2021-10-30 18:14:59 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:14:59 | [INFO]    | Connecting to Discord...
+2021-10-30 18:14:59 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:14:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:15:00 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:15:00 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:15:00 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:15:02 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:15:02 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:15:02 | [INFO]    | Voice : Received READY
+2021-10-30 18:15:05 | [INFO]    | Voice : Disconnected
+2021-10-30 18:19:38 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:19:38 | [INFO]    | Connecting to Discord...
+2021-10-30 18:19:38 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:19:38 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:19:38 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:19:38 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:19:39 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:19:41 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:19:41 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:19:41 | [INFO]    | Voice : Received READY
+2021-10-30 18:22:52 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:22:52 | [INFO]    | Connecting to Discord...
+2021-10-30 18:22:53 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:22:53 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:22:53 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:22:53 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:22:53 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:22:56 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:22:56 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:22:56 | [INFO]    | Voice : Received READY
+2021-10-30 18:22:59 | [INFO]    | Voice : Disconnected
+2021-10-30 18:23:40 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:23:40 | [INFO]    | Connecting to Discord...
+2021-10-30 18:23:40 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:23:40 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:23:41 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:23:41 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:23:41 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:23:48 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:23:48 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:23:48 | [INFO]    | Voice : Received READY
+2021-10-30 18:23:51 | [INFO]    | Voice : Disconnected
+2021-10-30 18:23:58 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:23:58 | [INFO]    | Connecting to Discord...
+2021-10-30 18:23:59 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:23:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:23:59 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:23:59 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:23:59 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:24:02 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:24:02 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:24:02 | [INFO]    | Voice : Received READY
+2021-10-30 18:24:05 | [INFO]    | Voice : Disconnected
+2021-10-30 18:25:59 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:25:59 | [INFO]    | Connecting to Discord...
+2021-10-30 18:26:00 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:26:00 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:26:00 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:26:00 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:26:00 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:27:02 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:27:02 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:27:02 | [INFO]    | Voice : Received READY
+2021-10-30 18:27:05 | [INFO]    | Voice : Disconnected
+2021-10-30 18:28:10 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:28:10 | [INFO]    | Connecting to Discord...
+2021-10-30 18:28:10 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:28:10 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:28:11 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:28:11 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:28:11 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:28:14 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:28:14 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:28:14 | [INFO]    | Voice : Received READY
+2021-10-30 18:28:17 | [INFO]    | Voice : Disconnected
+2021-10-30 18:29:51 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:29:51 | [INFO]    | Connecting to Discord...
+2021-10-30 18:29:52 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:29:52 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:29:52 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:29:52 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:29:52 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:29:56 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:29:56 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:29:56 | [INFO]    | Voice : Received READY
+2021-10-30 18:29:58 | [INFO]    | Voice : Disconnected
+2021-10-30 18:30:16 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:30:16 | [INFO]    | Connecting to Discord...
+2021-10-30 18:30:17 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:30:17 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:30:17 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:30:17 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:30:17 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:30:19 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:30:19 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:30:19 | [INFO]    | Voice : Received READY
+2021-10-30 18:30:22 | [INFO]    | Voice : Disconnected
+2021-10-30 18:30:56 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:30:56 | [INFO]    | Connecting to Discord...
+2021-10-30 18:30:56 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:30:56 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:30:56 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:30:56 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:30:57 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:30:58 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:30:58 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:30:58 | [INFO]    | Voice : Received READY
+2021-10-30 18:31:01 | [INFO]    | Voice : Disconnected
+2021-10-30 18:34:53 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:34:53 | [INFO]    | Connecting to Discord...
+2021-10-30 18:34:54 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:34:54 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:34:54 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:34:54 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:34:54 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:34:58 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:34:58 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:34:58 | [INFO]    | Voice : Received READY
+2021-10-30 18:35:00 | [INFO]    | Voice : Disconnected
+2021-10-30 18:35:31 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:35:31 | [INFO]    | Connecting to Discord...
+2021-10-30 18:35:32 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:35:32 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:35:32 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:35:32 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:35:32 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:35:35 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:35:35 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:35:35 | [INFO]    | Voice : Received READY
+2021-10-30 18:35:37 | [INFO]    | Voice : Disconnected
+2021-10-30 18:36:05 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:36:05 | [INFO]    | Connecting to Discord...
+2021-10-30 18:36:05 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:36:05 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:36:05 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:36:05 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:36:06 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:36:07 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:36:07 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:36:07 | [INFO]    | Voice : Received READY
+2021-10-30 18:36:09 | [INFO]    | Voice : Disconnected
+2021-10-30 18:36:21 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:36:21 | [INFO]    | Connecting to Discord...
+2021-10-30 18:36:22 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:36:22 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:36:22 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:36:22 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:36:22 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:36:24 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:36:24 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:36:24 | [INFO]    | Voice : Received READY
+2021-10-30 18:36:26 | [INFO]    | Voice : Disconnected
+2021-10-30 18:46:58 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:46:58 | [INFO]    | Connecting to Discord...
+2021-10-30 18:46:59 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:46:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:47:20 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:47:20 | [INFO]    | Connecting to Discord...
+2021-10-30 18:47:21 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:47:21 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:47:21 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:47:21 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:47:21 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:47:30 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:47:30 | [INFO]    | Connecting to Discord...
+2021-10-30 18:47:30 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:47:30 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:47:31 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:47:31 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:47:31 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:47:37 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:47:37 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:47:37 | [INFO]    | Voice : Received READY
+2021-10-30 18:48:07 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:48:07 | [INFO]    | Connecting to Discord...
+2021-10-30 18:48:07 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:48:07 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:48:07 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:48:07 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:48:07 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:48:20 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:48:20 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:48:20 | [INFO]    | Voice : Received READY
+2021-10-30 18:49:59 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:49:59 | [INFO]    | Connecting to Discord...
+2021-10-30 18:49:59 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:49:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:49:59 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:49:59 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:50:00 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:50:04 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:50:04 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:50:04 | [INFO]    | Voice : Received READY
+2021-10-30 18:50:30 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:50:30 | [INFO]    | Connecting to Discord...
+2021-10-30 18:50:30 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:50:30 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:50:30 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:50:30 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:50:31 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:50:44 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:50:44 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:50:44 | [INFO]    | Voice : Received READY
+2021-10-30 18:52:13 | [INFO]    | Voice : Disconnected
+2021-10-30 18:52:22 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:52:22 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:52:22 | [INFO]    | Voice : Received READY
+2021-10-30 18:52:55 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:52:55 | [INFO]    | Connecting to Discord...
+2021-10-30 18:52:55 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:52:55 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:52:56 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:52:56 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:52:56 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:53:01 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:53:01 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:53:01 | [INFO]    | Voice : Received READY
+2021-10-30 18:53:07 | [INFO]    | Voice : Disconnected
+2021-10-30 18:53:13 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:53:13 | [INFO]    | Connecting to Discord...
+2021-10-30 18:53:13 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:53:13 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:53:14 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:53:14 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:53:14 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:53:16 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:53:16 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:53:16 | [INFO]    | Voice : Received READY
+2021-10-30 18:55:13 | [INFO]    | Discordia 2.9.1
+2021-10-30 18:55:13 | [INFO]    | Connecting to Discord...
+2021-10-30 18:55:13 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 18:55:13 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 18:55:14 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 18:55:14 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 18:55:14 | [INFO]    | Shard 0 : Received READY
+2021-10-30 18:55:23 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
+2021-10-30 18:55:23 | [INFO]    | Voice : Received HELLO
+2021-10-30 18:55:23 | [INFO]    | Voice : Received READY

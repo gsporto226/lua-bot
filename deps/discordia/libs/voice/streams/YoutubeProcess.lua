@@ -33,10 +33,6 @@ function YoutubeProcess:__init(url)
 			stdio = {0, self._ytstdou, 2},
 		}, onExit)
 	else
-		uv.spawn('youtube-dl', {
-			args = {url,'-f','bestaudio', '-o','-','-q'},
-			stdio = {0, self._ytstdou, 2},
-		}, onExit)
 		self._youtubeProcess = uv.spawn('youtube-dl', {
 			args = {url,'-f','bestaudio', '-o','-','-q'},
 			stdio = {0, self._ytstdou, 2},
@@ -58,22 +54,22 @@ function YoutubeProcess:read(n)
 	local stdout = self._stdout
 	local bytes = n * 2
 
-	if not self._eof and #buffer < bytes then
-		local thread = running()		
+	if not self._closed and #buffer < bytes then
+
+		local thread = running()
 		stdout:read_start(function(err, chunk)
 			if err or not chunk then
-				self._eof = true
 				self:close()
-				return assert(resume(thread))
 			elseif #chunk > 0 then
 				buffer = buffer .. chunk
 			end
-			if #buffer >= bytes then
+			if #buffer >= bytes or self._closed then
 				stdout:read_stop()
 				return assert(resume(thread))
 			end
 		end)
 		yield()
+
 	end
 
 	if #buffer >= bytes then
@@ -85,6 +81,7 @@ function YoutubeProcess:read(n)
 end
 
 function YoutubeProcess:close()
+	-- self._closed = true
 	if (self._ffmpegProcess) then
 		self._ffmpegProcess:kill()
 	end

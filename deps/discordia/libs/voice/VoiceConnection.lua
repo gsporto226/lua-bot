@@ -210,7 +210,6 @@ function VoiceConnection:_play(stream, duration)
 
 	self:stopStream()
 	self:_setSpeaking(true)
-
 	duration = tonumber(duration) or math.huge
 
 	local elapsed = 0
@@ -259,7 +258,6 @@ function VoiceConnection:_play(stream, duration)
 		elapsed = elapsed + FRAME_DURATION
 		local delay = elapsed - (hrtime() - start) * MS_PER_NS
 		sleep(max(delay, 0))
-
 		if self._paused then
 			asyncResume(self._paused)
 			self._paused = running()
@@ -274,7 +272,6 @@ function VoiceConnection:_play(stream, duration)
 			reason = 'stream stopped'
 			break
 		end
-
 	end
 
 	self:_setSpeaking(false)
@@ -365,6 +362,7 @@ function VoiceConnection:playYoutube(url)
 	end
 	local stream = YoutubeProcess(url)
 	local elapsed, reason = self:_play(stream)
+	print(elapsed, reason)
 	stream:close()
 	return elapsed, reason
 end
