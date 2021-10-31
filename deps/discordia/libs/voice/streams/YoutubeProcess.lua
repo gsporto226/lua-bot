@@ -81,7 +81,7 @@ function YoutubeProcess:read(n)
 end
 
 function YoutubeProcess:close()
-	-- self._closed = true
+	self._closed = true
 	if (self._ffmpegProcess) then
 		self._ffmpegProcess:kill()
 	end
