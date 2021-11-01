@@ -2,12 +2,12 @@ local getenv = require('os').getenv
 
 
 --TODO: REDO MUSIC UPDATE LOOP ITS TOO CONFUSING
-
 local wrap,running,resume,yield = coroutine.wrap, coroutine.running,coroutine.resume,coroutine.yield
 
 local Music = {
 	name = "Music",
-	guilds = {}
+	guilds = {},
+	TIMEOUT = 1000 * 60 * 5
 }
 
 
@@ -127,7 +127,7 @@ function Music:stop(guildId)
 			guild.queue = {}
 			guild.currentlyPlaying = nil
 			if guild.connection then 
-				guild.connection:stopStream()
+				guild.connection:close()
 				guild.connection = nil
 			end
 		end
@@ -137,7 +137,8 @@ end
 
 function Music:skip(guildId)
 	local guild = self:getGuild(guildId)
-	if not guild.currentlyPlaying then return false, "There is nothing to skip"
+	if not guild.currentlyPlaying then 
+		return false, "There is nothing to skip"
 	else
 		guild.connection:stopStream()
 	end
@@ -162,6 +163,7 @@ function Music:__init()
 	self.Discordia = self.Deps.Discordia
 	self.Json = self.Deps.Json
 	self.DEVKEY = getenv("YOUTUBE_KEY")
+	self.Timer = self.Deps.Timer
 	return Music
 end
 
@@ -171,14 +173,20 @@ function Music:update(eos, guildId)
 	local guild = Music:getGuild(guildId)
 wrap(function()
 	if eos then
-		insert(guild.history,guild.currentlyPlaying)
+		insert(guild.history, guild.currentlyPlaying)
 		guild.currentlyPlaying = remove(guild.queue,1)
-		if not guild.currentlyPlaying then 
+		if not guild.currentlyPlaying then
 			if guild.connection then
-				guild.connection:close() 
-				guild.connection = nil 
+				self.Timer.setTimeout(self.TIMEOUT, function()
+					if not guild.currentlyPlaying and #guild.queue <= 0 then
+						wrap(function() 
+							guild.connection:close()
+							guild.connection = nil
+						end)()
+					end
+				end)
 			end
-			return false, "Queue is empty, closing connections!"
+			return false, "Queue is empty, set timer to close connections!"
 		else
 			self:update(false, guildId)
 		end
@@ -189,7 +197,7 @@ wrap(function()
 				self:update(false, guildId)
 			else
 				if guild.history[#guild.history] then
-					if not guild.currentlyPlaying.voicechannel.id == guild.history[#guild.history].voicechannel.id then
+					if guild.currentlyPlaying.voicechannel.id ~= guild.history[#guild.history].voicechannel.id then
 						guild.connection:close()
 						guild.connection = guild.currentlyPlaying.voicechannel:join()
 					end

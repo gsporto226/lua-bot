@@ -3,6 +3,7 @@ local fs = require('fs')
 local joinPath = require('path').join
 local Json = require('json')
 local getenv = require('os').getenv
+local timer = require('timer')
 
 --Global variables
 _G["dev"] = getenv("BOT_ISDEV") == "true" or false
@@ -45,7 +46,7 @@ local function loadModules(path)
 				if _G[n].disabled then
 					_G[n] = nil
 				else
-					_G[n].Deps = {Client = Client, Logger = Logger, Enums = Enums, Config = Config, Discordia = Discordia, Json = Json}
+					_G[n].Deps = {Timer = timer, Client = Client, Logger = Logger, Enums = Enums, Config = Config, Discordia = Discordia, Json = Json}
 					_G[n]:__init()
 				end
 			end)

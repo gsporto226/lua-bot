@@ -754,3 +754,667 @@
 2021-10-30 18:55:23 | [INFO]    | Voice : Connected to wss://brazil8894.discord.media
 2021-10-30 18:55:23 | [INFO]    | Voice : Received HELLO
 2021-10-30 18:55:23 | [INFO]    | Voice : Received READY
+2021-10-30 23:07:49 | [INFO]    | Discordia 2.9.1
+2021-10-30 23:07:49 | [INFO]    | Connecting to Discord...
+2021-10-30 23:07:49 | [INFO]    | Authenticated as TestBot#1641
+2021-10-30 23:07:50 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 23:07:50 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 23:07:50 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 23:07:50 | [INFO]    | Shard 0 : Received READY
+2021-10-30 23:08:13 | [INFO]    | Discordia 2.9.1
+2021-10-30 23:08:13 | [INFO]    | Connecting to Discord...
+2021-10-30 23:08:13 | [INFO]    | Authenticated as Prankster#8600
+2021-10-30 23:08:13 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-30 23:08:14 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-30 23:08:14 | [INFO]    | Shard 0 : Received HELLO
+2021-10-30 23:08:14 | [INFO]    | Shard 0 : Received READY
+2021-10-30 23:08:25 | [INFO]    | Voice : Connected to wss://brazil8171.discord.media
+2021-10-30 23:08:25 | [INFO]    | Voice : Received HELLO
+2021-10-30 23:08:25 | [INFO]    | Voice : Received READY
+2021-10-30 23:08:34 | [WARNING] | Voice : 4014 - Disconnected.
+2021-10-30 23:08:34 | [INFO]    | Voice : Disconnected
+2021-10-31 21:32:59 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:32:59 | [INFO]    | Connecting to Discord...
+2021-10-31 21:32:59 | [INFO]    | Authenticated as Prankster#8600
+2021-10-31 21:33:00 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:33:00 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:33:00 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:33:00 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:34:20 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:34:20 | [INFO]    | Connecting to Discord...
+2021-10-31 21:34:21 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:34:21 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:34:21 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:34:21 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:34:22 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:34:35 | [INFO]    | Voice : Connected to wss://brazil2775.discord.media
+2021-10-31 21:34:35 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:34:35 | [INFO]    | Voice : Received READY
+2021-10-31 21:34:44 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 21:35:11 | [WARNING] | Voice : 4014 - Disconnected.
+2021-10-31 21:35:11 | [INFO]    | Voice : Disconnected
+2021-10-31 21:35:26 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:35:26 | [INFO]    | Connecting to Discord...
+2021-10-31 21:35:26 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:35:26 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:35:26 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:35:26 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:35:27 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:35:54 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:35:54 | [INFO]    | Connecting to Discord...
+2021-10-31 21:35:55 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:35:55 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:35:55 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:35:55 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:35:55 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:37:25 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:37:25 | [INFO]    | Connecting to Discord...
+2021-10-31 21:37:25 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:37:25 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:37:26 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:37:26 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:37:26 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:38:49 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:38:49 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:38:49 | [INFO]    | Voice : Received READY
+2021-10-31 21:39:08 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:39:08 | [INFO]    | Connecting to Discord...
+2021-10-31 21:39:09 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:39:09 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:39:09 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:39:09 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:39:09 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:39:11 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:39:11 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:39:12 | [INFO]    | Voice : Received READY
+2021-10-31 21:39:15 | [INFO]    | Voice : Disconnected
+2021-10-31 21:40:10 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:40:10 | [INFO]    | Connecting to Discord...
+2021-10-31 21:40:10 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:40:10 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:40:11 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:40:11 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:40:11 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:40:19 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:40:19 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:40:19 | [INFO]    | Voice : Received READY
+2021-10-31 21:41:06 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:41:06 | [INFO]    | Connecting to Discord...
+2021-10-31 21:41:06 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:41:06 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:41:07 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:41:07 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:41:07 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:41:09 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:41:09 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:41:09 | [INFO]    | Voice : Received READY
+2021-10-31 21:43:27 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:43:27 | [INFO]    | Connecting to Discord...
+2021-10-31 21:43:27 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:43:27 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:43:27 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:43:27 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:43:28 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:43:31 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:43:31 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:43:31 | [INFO]    | Voice : Received READY
+2021-10-31 21:45:14 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:45:14 | [INFO]    | Connecting to Discord...
+2021-10-31 21:45:15 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:45:15 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:45:15 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:45:15 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:45:15 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:45:18 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:45:18 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:45:18 | [INFO]    | Voice : Received READY
+2021-10-31 21:45:44 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:45:44 | [INFO]    | Connecting to Discord...
+2021-10-31 21:45:44 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:45:44 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:45:44 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:45:44 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:45:45 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:45:49 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:45:49 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:45:49 | [INFO]    | Voice : Received READY
+2021-10-31 21:45:52 | [INFO]    | Voice : Disconnected
+2021-10-31 21:47:09 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:47:09 | [INFO]    | Connecting to Discord...
+2021-10-31 21:47:10 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:47:10 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:47:10 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:47:10 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:47:10 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:47:17 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:47:17 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:47:17 | [INFO]    | Voice : Received READY
+2021-10-31 21:47:20 | [INFO]    | Voice : Disconnected
+2021-10-31 21:47:32 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:47:32 | [INFO]    | Connecting to Discord...
+2021-10-31 21:47:32 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:47:32 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:47:32 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:47:32 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:47:32 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:47:35 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:47:35 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:47:35 | [INFO]    | Voice : Received READY
+2021-10-31 21:47:38 | [INFO]    | Voice : Disconnected
+2021-10-31 21:48:07 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:48:07 | [INFO]    | Connecting to Discord...
+2021-10-31 21:48:07 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:48:07 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:48:08 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:48:08 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:48:08 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:48:10 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:48:10 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:48:10 | [INFO]    | Voice : Received READY
+2021-10-31 21:48:13 | [INFO]    | Voice : Disconnected
+2021-10-31 21:48:23 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:48:23 | [INFO]    | Connecting to Discord...
+2021-10-31 21:48:23 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:48:23 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:48:24 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:48:24 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:48:24 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:48:26 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:48:26 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:48:26 | [INFO]    | Voice : Received READY
+2021-10-31 21:49:01 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:49:01 | [INFO]    | Connecting to Discord...
+2021-10-31 21:49:02 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:49:02 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:49:02 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:49:02 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:49:02 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:49:05 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:49:05 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:49:05 | [INFO]    | Voice : Received READY
+2021-10-31 21:52:32 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:52:32 | [INFO]    | Connecting to Discord...
+2021-10-31 21:52:33 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:52:33 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:52:34 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:52:34 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:52:34 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:52:38 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:52:38 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:52:38 | [INFO]    | Voice : Received READY
+2021-10-31 21:53:26 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:53:26 | [INFO]    | Connecting to Discord...
+2021-10-31 21:53:26 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:53:26 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:53:26 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:53:26 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:53:27 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:53:29 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:53:29 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:53:29 | [INFO]    | Voice : Received READY
+2021-10-31 21:53:52 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:53:52 | [INFO]    | Connecting to Discord...
+2021-10-31 21:53:53 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:53:53 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:53:53 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:53:53 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:53:53 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:53:55 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:53:55 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:53:55 | [INFO]    | Voice : Received READY
+2021-10-31 21:54:21 | [INFO]    | Voice : Disconnected
+2021-10-31 21:54:32 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:54:32 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:54:32 | [INFO]    | Voice : Received READY
+2021-10-31 21:55:16 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:55:16 | [INFO]    | Connecting to Discord...
+2021-10-31 21:55:16 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:55:16 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:55:16 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:55:16 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:55:17 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:55:19 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:55:19 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:55:19 | [INFO]    | Voice : Received READY
+2021-10-31 21:56:09 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:56:09 | [INFO]    | Connecting to Discord...
+2021-10-31 21:56:10 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:56:10 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:56:10 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:56:10 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:56:10 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:56:13 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:56:13 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:56:13 | [INFO]    | Voice : Received READY
+2021-10-31 21:58:22 | [INFO]    | Discordia 2.9.1
+2021-10-31 21:58:22 | [INFO]    | Connecting to Discord...
+2021-10-31 21:58:22 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 21:58:22 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 21:58:23 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 21:58:23 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 21:58:23 | [INFO]    | Shard 0 : Received READY
+2021-10-31 21:58:25 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 21:58:25 | [INFO]    | Voice : Received HELLO
+2021-10-31 21:58:25 | [INFO]    | Voice : Received READY
+2021-10-31 22:00:42 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:00:42 | [INFO]    | Connecting to Discord...
+2021-10-31 22:00:42 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:00:42 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:00:42 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:00:42 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:00:43 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:00:44 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:00:44 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:00:44 | [INFO]    | Voice : Received READY
+2021-10-31 22:01:03 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:01:03 | [INFO]    | Connecting to Discord...
+2021-10-31 22:01:03 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:01:03 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:01:03 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:01:03 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:01:04 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:01:11 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:01:11 | [INFO]    | Connecting to Discord...
+2021-10-31 22:01:11 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:01:11 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:01:11 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:01:11 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:01:12 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:01:13 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:01:13 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:01:13 | [INFO]    | Voice : Received READY
+2021-10-31 22:01:39 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:01:39 | [INFO]    | Connecting to Discord...
+2021-10-31 22:01:39 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:01:39 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:01:40 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:01:40 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:01:40 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:01:41 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:01:41 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:01:41 | [INFO]    | Voice : Received READY
+2021-10-31 22:02:02 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:02:02 | [INFO]    | Connecting to Discord...
+2021-10-31 22:02:02 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:02:02 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:02:03 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:02:03 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:02:03 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:02:08 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:02:08 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:02:08 | [INFO]    | Voice : Received READY
+2021-10-31 22:02:12 | [INFO]    | Voice : Disconnected
+2021-10-31 22:02:50 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:02:50 | [INFO]    | Connecting to Discord...
+2021-10-31 22:02:50 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:02:50 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:02:51 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:02:51 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:02:51 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:02:53 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:02:53 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:02:53 | [INFO]    | Voice : Received READY
+2021-10-31 22:02:56 | [INFO]    | Voice : Disconnected
+2021-10-31 22:04:16 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:04:16 | [INFO]    | Connecting to Discord...
+2021-10-31 22:04:16 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:04:16 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:04:17 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:04:17 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:04:17 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:04:19 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:04:19 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:04:19 | [INFO]    | Voice : Received READY
+2021-10-31 22:04:23 | [INFO]    | Voice : Disconnected
+2021-10-31 22:09:18 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:09:18 | [INFO]    | Connecting to Discord...
+2021-10-31 22:09:19 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:09:19 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:09:19 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:09:19 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:09:20 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:09:25 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:09:25 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:09:25 | [INFO]    | Voice : Received READY
+2021-10-31 22:11:04 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:11:04 | [INFO]    | Connecting to Discord...
+2021-10-31 22:11:04 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:11:04 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:11:04 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:11:04 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:11:05 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:11:10 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:11:10 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:11:11 | [INFO]    | Voice : Received READY
+2021-10-31 22:11:37 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:11:37 | [INFO]    | Connecting to Discord...
+2021-10-31 22:11:38 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:11:38 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:11:38 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:11:38 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:11:38 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:11:40 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:11:40 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:11:40 | [INFO]    | Voice : Received READY
+2021-10-31 22:12:00 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:12:00 | [INFO]    | Connecting to Discord...
+2021-10-31 22:12:00 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:12:00 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:12:00 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:12:00 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:12:01 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:12:02 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:12:02 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:12:02 | [INFO]    | Voice : Received READY
+2021-10-31 22:13:32 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:13:32 | [INFO]    | Connecting to Discord...
+2021-10-31 22:13:32 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:13:32 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:13:32 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:13:32 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:13:33 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:13:34 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:13:34 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:13:34 | [INFO]    | Voice : Received READY
+2021-10-31 22:13:38 | [INFO]    | Voice : Disconnected
+2021-10-31 22:14:37 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:14:37 | [INFO]    | Connecting to Discord...
+2021-10-31 22:14:37 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:14:37 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:14:38 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:14:38 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:14:38 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:14:40 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:14:40 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:14:40 | [INFO]    | Voice : Received READY
+2021-10-31 22:14:44 | [INFO]    | Voice : Disconnected
+2021-10-31 22:15:40 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:15:40 | [INFO]    | Connecting to Discord...
+2021-10-31 22:15:41 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:15:41 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:15:41 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:15:41 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:15:41 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:15:45 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:15:45 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:15:45 | [INFO]    | Voice : Received READY
+2021-10-31 22:15:50 | [INFO]    | Voice : Disconnected
+2021-10-31 22:17:34 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:17:34 | [INFO]    | Connecting to Discord...
+2021-10-31 22:17:34 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:17:34 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:17:34 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:17:34 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:17:35 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:17:37 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:17:37 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:17:37 | [INFO]    | Voice : Received READY
+2021-10-31 22:27:05 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:27:05 | [INFO]    | Connecting to Discord...
+2021-10-31 22:27:06 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:27:06 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:27:06 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:27:06 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:27:06 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:27:12 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:27:12 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:27:12 | [INFO]    | Voice : Received READY
+2021-10-31 22:27:56 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:27:56 | [INFO]    | Connecting to Discord...
+2021-10-31 22:27:56 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:27:56 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:27:56 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:27:56 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:27:57 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:28:16 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:28:16 | [INFO]    | Connecting to Discord...
+2021-10-31 22:28:16 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:28:16 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:28:17 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:28:17 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:28:18 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:28:52 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:28:52 | [INFO]    | Connecting to Discord...
+2021-10-31 22:28:52 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:28:52 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:28:52 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:28:52 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:28:52 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:28:57 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:28:57 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:28:57 | [INFO]    | Voice : Received READY
+2021-10-31 22:29:31 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:29:31 | [INFO]    | Connecting to Discord...
+2021-10-31 22:29:31 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:29:31 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:29:32 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:29:32 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:29:32 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:29:34 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:29:34 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:29:34 | [INFO]    | Voice : Received READY
+2021-10-31 22:29:58 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:29:58 | [INFO]    | Connecting to Discord...
+2021-10-31 22:29:59 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:29:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:29:59 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:29:59 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:29:59 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:30:00 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:30:00 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:30:00 | [INFO]    | Voice : Received READY
+2021-10-31 22:30:17 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:30:17 | [INFO]    | Connecting to Discord...
+2021-10-31 22:30:17 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:30:17 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:30:18 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:30:18 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:30:18 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:30:19 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:30:19 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:30:19 | [INFO]    | Voice : Received READY
+2021-10-31 22:30:38 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:30:38 | [INFO]    | Connecting to Discord...
+2021-10-31 22:30:38 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:30:38 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:30:38 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:30:38 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:30:38 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:30:39 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:30:39 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:30:39 | [INFO]    | Voice : Received READY
+2021-10-31 22:30:55 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:30:55 | [INFO]    | Connecting to Discord...
+2021-10-31 22:30:55 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:30:55 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:30:56 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:30:56 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:30:56 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:30:57 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:30:57 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:30:57 | [INFO]    | Voice : Received READY
+2021-10-31 22:31:21 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:31:21 | [INFO]    | Connecting to Discord...
+2021-10-31 22:31:22 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:31:22 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:31:22 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:31:22 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:31:22 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:31:24 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:31:24 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:31:24 | [INFO]    | Voice : Received READY
+2021-10-31 22:32:25 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:32:25 | [INFO]    | Connecting to Discord...
+2021-10-31 22:32:26 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:32:26 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:32:26 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:32:26 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:32:26 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:32:31 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:32:31 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:32:31 | [INFO]    | Voice : Received READY
+2021-10-31 22:32:50 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:32:50 | [INFO]    | Connecting to Discord...
+2021-10-31 22:32:50 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:32:50 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:32:50 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:32:50 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:32:51 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:32:52 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:32:52 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:32:52 | [INFO]    | Voice : Received READY
+2021-10-31 22:32:59 | [INFO]    | Voice : Disconnected
+2021-10-31 22:33:44 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:33:44 | [INFO]    | Connecting to Discord...
+2021-10-31 22:33:44 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:33:44 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:33:45 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:33:45 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:33:45 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:33:47 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:33:47 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:33:47 | [INFO]    | Voice : Received READY
+2021-10-31 22:34:17 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:34:17 | [INFO]    | Connecting to Discord...
+2021-10-31 22:34:18 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:34:18 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:34:18 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:34:18 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:34:18 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:34:22 | [INFO]    | Voice : Connected to wss://brazil9915.discord.media
+2021-10-31 22:34:22 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:34:22 | [INFO]    | Voice : Received READY
+2021-10-31 22:34:50 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 22:35:00 | [INFO]    | Voice : Connected to wss://brazil9238.discord.media
+2021-10-31 22:35:00 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:35:00 | [INFO]    | Voice : Received READY
+2021-10-31 22:35:04 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 22:35:21 | [INFO]    | Voice : Disconnected
+2021-10-31 22:38:10 | [INFO]    | Voice : Disconnected
+2021-10-31 22:38:25 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:38:25 | [INFO]    | Connecting to Discord...
+2021-10-31 22:38:26 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:38:26 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:38:27 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:38:27 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:38:27 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:38:39 | [INFO]    | Voice : Connected to wss://brazil4618.discord.media
+2021-10-31 22:38:39 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:38:39 | [INFO]    | Voice : Received READY
+2021-10-31 22:38:40 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 22:38:59 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:38:59 | [INFO]    | Connecting to Discord...
+2021-10-31 22:38:59 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:38:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:39:00 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:39:00 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:39:00 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:40:18 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:40:18 | [INFO]    | Connecting to Discord...
+2021-10-31 22:40:18 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:40:18 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:40:19 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:40:19 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:40:19 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:40:26 | [INFO]    | Voice : Connected to wss://brazil4618.discord.media
+2021-10-31 22:40:26 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:40:26 | [INFO]    | Voice : Received READY
+2021-10-31 22:41:21 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:41:21 | [INFO]    | Connecting to Discord...
+2021-10-31 22:41:21 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:41:21 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:41:21 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:41:21 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:41:22 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:41:28 | [INFO]    | Voice : Connected to wss://brazil4618.discord.media
+2021-10-31 22:41:28 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:41:28 | [INFO]    | Voice : Received READY
+2021-10-31 22:41:30 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 22:42:16 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:42:16 | [INFO]    | Connecting to Discord...
+2021-10-31 22:42:17 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:42:17 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:42:17 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:42:17 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:42:17 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:42:23 | [INFO]    | Voice : Connected to wss://brazil4618.discord.media
+2021-10-31 22:42:23 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:42:23 | [INFO]    | Voice : Received READY
+2021-10-31 22:42:26 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 22:42:26 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 22:43:11 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:43:11 | [INFO]    | Connecting to Discord...
+2021-10-31 22:43:11 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:43:11 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:43:11 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:43:11 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:43:12 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:43:19 | [INFO]    | Voice : Connected to wss://brazil4618.discord.media
+2021-10-31 22:43:19 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:43:19 | [INFO]    | Voice : Received READY
+2021-10-31 22:43:24 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 22:43:56 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:43:56 | [INFO]    | Connecting to Discord...
+2021-10-31 22:43:56 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:43:56 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:43:57 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:43:57 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:43:57 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:44:06 | [INFO]    | Voice : Connected to wss://brazil4618.discord.media
+2021-10-31 22:44:06 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:44:06 | [INFO]    | Voice : Received READY
+2021-10-31 22:44:08 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 22:44:12 | [INFO]    | Voice : Disconnected
+2021-10-31 22:44:33 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:44:33 | [INFO]    | Connecting to Discord...
+2021-10-31 22:44:34 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:44:34 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:44:34 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:44:34 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:44:34 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:44:52 | [INFO]    | Voice : Connected to wss://brazil8273.discord.media
+2021-10-31 22:44:52 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:44:52 | [INFO]    | Voice : Received READY
+2021-10-31 22:44:54 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 22:44:58 | [INFO]    | Voice : Disconnected
+2021-10-31 22:46:45 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:46:45 | [INFO]    | Connecting to Discord...
+2021-10-31 22:46:46 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:46:46 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:46:46 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:46:46 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:46:46 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:46:52 | [INFO]    | Voice : Connected to wss://brazil1902.discord.media
+2021-10-31 22:46:52 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:46:52 | [INFO]    | Voice : Received READY
+2021-10-31 22:46:54 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 22:47:05 | [INFO]    | Voice : Disconnected
+2021-10-31 22:48:08 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:48:08 | [INFO]    | Connecting to Discord...
+2021-10-31 22:48:08 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:48:08 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:48:09 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:48:09 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:48:09 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:49:08 | [INFO]    | Voice : Connected to wss://brazil8972.discord.media
+2021-10-31 22:49:08 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:49:08 | [INFO]    | Voice : Received READY
+2021-10-31 22:49:11 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-10-31 22:49:20 | [WARNING] | Voice : 4014 - Disconnected.
+2021-10-31 22:49:20 | [INFO]    | Voice : Disconnected
+2021-10-31 22:49:20 | [WARNING] | Voice connection not initialized before VOICE_SERVER_UPDATE
+2021-10-31 22:49:42 | [INFO]    | Discordia 2.9.1
+2021-10-31 22:49:42 | [INFO]    | Connecting to Discord...
+2021-10-31 22:49:43 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-10-31 22:49:43 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-10-31 22:49:43 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-10-31 22:49:43 | [INFO]    | Shard 0 : Received HELLO
+2021-10-31 22:49:43 | [INFO]    | Shard 0 : Received READY
+2021-10-31 22:49:47 | [INFO]    | Voice : Connected to wss://brazil8841.discord.media
+2021-10-31 22:49:47 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:49:47 | [INFO]    | Voice : Received READY
+2021-10-31 22:49:57 | [INFO]    | Voice : Disconnected
+2021-10-31 22:49:58 | [INFO]    | Voice : Connected to wss://brazil2767.discord.media
+2021-10-31 22:49:58 | [INFO]    | Voice : Received HELLO
+2021-10-31 22:49:58 | [INFO]    | Voice : Received READY
+2021-10-31 22:50:08 | [WARNING] | Voice : Unhandled WebSocket payload OP 14

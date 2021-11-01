@@ -224,7 +224,6 @@ function VoiceConnection:_play(stream, duration)
 	local reason
 
 	while elapsed < duration do
-
 		local pcm = stream:read(pcm_len)
 		if not pcm then
 			reason = 'stream exhausted or errored'
@@ -362,7 +361,6 @@ function VoiceConnection:playYoutube(url)
 	end
 	local stream = YoutubeProcess(url)
 	local elapsed, reason = self:_play(stream)
-	print(elapsed, reason)
 	stream:close()
 	return elapsed, reason
 end

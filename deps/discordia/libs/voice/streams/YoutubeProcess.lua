@@ -8,12 +8,7 @@ local unpack = string.unpack -- luacheck: ignore
 local rep = string.rep
 local yield, resume, running,wrap = coroutine.yield, coroutine.resume, coroutine.running, coroutine.wrap
 
-local function onExit() 
-
-end
-local function onYTSucc()
-
-end
+local function onExit() end
 
 local fmt = setmetatable({}, {
 	__index = function(self, n)
@@ -95,5 +90,6 @@ function YoutubeProcess:close()
 		self._ytstdou:close()
 	end
 end
+
 
 return YoutubeProcess
