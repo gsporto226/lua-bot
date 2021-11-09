@@ -14,6 +14,93 @@ local Response = {
 	name = "Response",
 	embeds = 
 	{
+		pokerplanner = {
+			voteSessionReport = function(session, voteSession)
+				local sum = 0
+				local participation = 0
+				local embed = {
+					title = "Relatório de votação",
+					fields =  {}
+				}
+				for id, score in pairs(voteSession.votes) do
+					sum = sum + score
+					participation = participation + 1
+					local user = session.users[id]
+					if user then
+						table.insert(embed.fields, {
+							name = user.name,
+							value = "**"..score.."**"
+						})
+					end
+				end
+				local mean = 0
+				local percentage = 0
+				local userCount = Utils.pcount(session.users)
+				if userCount > 0 then
+					percentage = participation / userCount
+				end
+				if participation ~= 0 then
+					mean = sum / participation
+				end
+				embed.description =  string.format("Participação --  **%f**%%\nMédia dos scores -- **%f**", percentage * 100, mean)
+				return embed
+			end,
+			closingSessionReport = function(session, voteSessions)
+				local participants = {}
+				local sumOfSums = 0
+				local sumOfParticipations = 0
+				local count = 0
+				local embed = {
+					title = "Relatório da sessão",
+					fields =  {}
+				}
+				for _, voteSession in ipairs(voteSessions) do
+					count = count + 1
+					local sum = 0
+					local participation = 0
+					for id, score in pairs(voteSession.votes) do
+						sum = sum + score
+						participation = participation + 1
+						local user = session.users[id]
+						if user then
+							if not participants[id] then
+								participants[id] = {
+									name = user.name,
+									participation = 0,
+									sum = 0
+								}
+							end
+							participants[id].participation = participants[id].participation + 1
+							participants[id].sum = participants[id].sum + score
+						end
+					end
+					sumOfSums = sumOfSums + sum
+					sumOfParticipations = sumOfParticipations + participation
+				end
+				local scoresMean = 0
+				local participationsMean = 0
+				if count ~= 0 then
+					scoresMean = sumOfSums / count
+					participationsMean = sumOfParticipations / count
+				end
+				embed.description = string.format('Média de scores: **%f**, Média de participação: **%f**%%', scoresMean , participationsMean * 100)
+				for _, info in pairs(participants) do
+					local mean = 0
+					local percentage = 0
+					if info.participation ~= 0 then
+						mean = info.sum / info.participation
+					end
+					if count ~= 0 then
+						percentage = info.participation / count
+					end
+					table.insert(embed.fields, {
+						name = info.name,
+						value = string.format('Participou de **%d**%% das votações.\nA média dos scores dados foi **%f**', percentage * 100, mean)
+					})
+				end
+				return embed
+			end,
+		},
 		spyfall = {
 			--SPYFALL
 			successFeedback = function(description)

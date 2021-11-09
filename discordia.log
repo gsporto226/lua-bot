@@ -1418,3 +1418,524 @@
 2021-10-31 22:49:58 | [INFO]    | Voice : Received HELLO
 2021-10-31 22:49:58 | [INFO]    | Voice : Received READY
 2021-10-31 22:50:08 | [WARNING] | Voice : Unhandled WebSocket payload OP 14
+2021-11-08 21:39:00 | [INFO]    | Discordia 2.9.1
+2021-11-08 21:39:00 | [INFO]    | Connecting to Discord...
+2021-11-08 21:39:00 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 21:39:01 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 21:39:01 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 21:39:01 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 21:39:02 | [INFO]    | Shard 0 : Received READY
+2021-11-08 21:39:13 | [INFO]    | Discordia 2.9.1
+2021-11-08 21:39:13 | [INFO]    | Connecting to Discord...
+2021-11-08 21:39:14 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 21:39:14 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 21:39:14 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 21:39:14 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 21:39:14 | [INFO]    | Shard 0 : Received READY
+2021-11-08 21:39:20 | [INFO]    | Discordia 2.9.1
+2021-11-08 21:39:20 | [INFO]    | Connecting to Discord...
+2021-11-08 21:39:21 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 21:39:21 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 21:39:21 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 21:39:21 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 21:39:21 | [INFO]    | Shard 0 : Received READY
+2021-11-08 21:40:39 | [INFO]    | Discordia 2.9.1
+2021-11-08 21:40:39 | [INFO]    | Connecting to Discord...
+2021-11-08 21:40:39 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 21:40:39 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 21:40:40 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 21:40:40 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 21:40:40 | [INFO]    | Shard 0 : Received READY
+2021-11-08 21:41:04 | [INFO]    | Discordia 2.9.1
+2021-11-08 21:41:04 | [INFO]    | Connecting to Discord...
+2021-11-08 21:41:04 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 21:41:04 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 21:41:05 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 21:41:05 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 21:41:05 | [INFO]    | Shard 0 : Received READY
+2021-11-08 21:41:41 | [INFO]    | Discordia 2.9.1
+2021-11-08 21:41:41 | [INFO]    | Connecting to Discord...
+2021-11-08 21:41:42 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 21:41:42 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 21:41:42 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 21:41:42 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 21:41:42 | [INFO]    | Shard 0 : Received READY
+2021-11-08 21:42:10 | [INFO]    | Discordia 2.9.1
+2021-11-08 21:42:10 | [INFO]    | Connecting to Discord...
+2021-11-08 21:42:10 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 21:42:10 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 21:42:10 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 21:42:10 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 21:42:10 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:14:46 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:14:46 | [INFO]    | Connecting to Discord...
+2021-11-08 22:14:46 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:14:46 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:14:47 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:14:47 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:14:47 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:15:51 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:15:51 | [INFO]    | Connecting to Discord...
+2021-11-08 22:15:51 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:15:51 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:15:51 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:15:51 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:15:52 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:16:20 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:16:20 | [INFO]    | Connecting to Discord...
+2021-11-08 22:16:21 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:16:21 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:16:21 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:16:21 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:16:21 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:16:38 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:16:38 | [INFO]    | Connecting to Discord...
+2021-11-08 22:16:38 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:16:38 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:16:39 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:16:39 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:16:39 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:17:17 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:17:17 | [INFO]    | Connecting to Discord...
+2021-11-08 22:17:18 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:17:18 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:17:18 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:17:18 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:17:18 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:18:00 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:18:00 | [INFO]    | Connecting to Discord...
+2021-11-08 22:18:01 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:18:01 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:18:01 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:18:01 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:18:03 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:18:50 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:18:50 | [INFO]    | Connecting to Discord...
+2021-11-08 22:18:51 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:18:51 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:18:51 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:18:51 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:18:51 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:19:57 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:19:57 | [INFO]    | Connecting to Discord...
+2021-11-08 22:19:57 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:19:57 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:19:58 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:19:58 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:19:58 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:24:37 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:24:37 | [INFO]    | Connecting to Discord...
+2021-11-08 22:24:37 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:24:37 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:24:37 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:24:37 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:24:38 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:28:34 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:28:34 | [INFO]    | Connecting to Discord...
+2021-11-08 22:28:35 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:28:35 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:28:35 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:28:35 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:28:35 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:29:02 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:29:02 | [INFO]    | Connecting to Discord...
+2021-11-08 22:29:02 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:29:02 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:29:02 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:29:02 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:29:03 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:29:47 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:29:47 | [INFO]    | Connecting to Discord...
+2021-11-08 22:29:47 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:29:47 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:29:47 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:29:47 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:29:48 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:52:07 | [INFO]    | Shard 0 : Discord has requested a reconnection
+2021-11-08 22:52:08 | [INFO]    | Shard 0 : Disconnected
+2021-11-08 22:52:08 | [INFO]    | Shard 0 : Reconnecting...
+2021-11-08 22:52:08 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:52:08 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:52:08 | [INFO]    | Shard 0 : Received RESUMED
+2021-11-08 22:53:34 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:53:34 | [INFO]    | Connecting to Discord...
+2021-11-08 22:53:34 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:53:35 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:53:35 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:53:35 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:53:35 | [INFO]    | Shard 0 : Received READY
+2021-11-08 22:53:46 | [INFO]    | Discordia 2.9.1
+2021-11-08 22:53:46 | [INFO]    | Connecting to Discord...
+2021-11-08 22:53:46 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 22:53:46 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 22:53:46 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 22:53:46 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 22:53:47 | [INFO]    | Shard 0 : Received READY
+2021-11-08 23:22:36 | [INFO]    | Discordia 2.9.1
+2021-11-08 23:22:36 | [INFO]    | Connecting to Discord...
+2021-11-08 23:22:37 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-08 23:22:37 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-08 23:22:37 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-08 23:22:37 | [INFO]    | Shard 0 : Received HELLO
+2021-11-08 23:22:38 | [INFO]    | Shard 0 : Received READY
+2021-11-09 03:47:58 | [INFO]    | Discordia 2.9.1
+2021-11-09 03:47:58 | [INFO]    | Connecting to Discord...
+2021-11-09 03:47:58 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 03:47:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 03:47:59 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 03:47:59 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 03:48:00 | [INFO]    | Shard 0 : Received READY
+2021-11-09 03:48:28 | [INFO]    | Discordia 2.9.1
+2021-11-09 03:48:28 | [INFO]    | Connecting to Discord...
+2021-11-09 03:48:28 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 03:48:28 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 03:48:29 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 03:48:29 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 03:48:29 | [INFO]    | Shard 0 : Received READY
+2021-11-09 03:49:10 | [INFO]    | Discordia 2.9.1
+2021-11-09 03:49:10 | [INFO]    | Connecting to Discord...
+2021-11-09 03:49:11 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 03:49:11 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 03:49:11 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 03:49:11 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 03:49:11 | [INFO]    | Shard 0 : Received READY
+2021-11-09 03:50:52 | [INFO]    | Discordia 2.9.1
+2021-11-09 03:50:52 | [INFO]    | Connecting to Discord...
+2021-11-09 03:50:52 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 03:50:52 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 03:50:53 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 03:50:53 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 03:50:53 | [INFO]    | Shard 0 : Received READY
+2021-11-09 03:52:57 | [INFO]    | Discordia 2.9.1
+2021-11-09 03:52:57 | [INFO]    | Connecting to Discord...
+2021-11-09 03:52:58 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 03:52:58 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 03:52:58 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 03:52:58 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 03:52:58 | [INFO]    | Shard 0 : Received READY
+2021-11-09 03:53:49 | [INFO]    | Discordia 2.9.1
+2021-11-09 03:53:49 | [INFO]    | Connecting to Discord...
+2021-11-09 03:53:49 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 03:53:49 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 03:53:50 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 03:53:50 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 03:53:50 | [INFO]    | Shard 0 : Received READY
+2021-11-09 04:36:59 | [INFO]    | Discordia 2.9.1
+2021-11-09 04:36:59 | [INFO]    | Connecting to Discord...
+2021-11-09 04:37:00 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 04:37:00 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 04:37:01 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 04:37:01 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 04:37:01 | [INFO]    | Shard 0 : Received READY
+2021-11-09 04:43:13 | [INFO]    | Discordia 2.9.1
+2021-11-09 04:43:13 | [INFO]    | Connecting to Discord...
+2021-11-09 04:43:14 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 04:43:14 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 04:43:14 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 04:43:14 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 04:43:15 | [INFO]    | Shard 0 : Received READY
+2021-11-09 04:43:55 | [INFO]    | Discordia 2.9.1
+2021-11-09 04:43:55 | [INFO]    | Connecting to Discord...
+2021-11-09 04:43:56 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 04:43:56 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 04:43:56 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 04:43:56 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 04:43:56 | [INFO]    | Shard 0 : Received READY
+2021-11-09 04:45:05 | [INFO]    | Discordia 2.9.1
+2021-11-09 04:45:05 | [INFO]    | Connecting to Discord...
+2021-11-09 04:45:05 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 04:45:05 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 04:45:05 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 04:45:05 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 04:45:06 | [INFO]    | Shard 0 : Received READY
+2021-11-09 04:46:12 | [INFO]    | Discordia 2.9.1
+2021-11-09 04:46:12 | [INFO]    | Connecting to Discord...
+2021-11-09 04:46:12 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 04:46:12 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 04:46:13 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 04:46:13 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 04:46:13 | [INFO]    | Shard 0 : Received READY
+2021-11-09 04:47:33 | [INFO]    | Discordia 2.9.1
+2021-11-09 04:47:33 | [INFO]    | Connecting to Discord...
+2021-11-09 04:47:33 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 04:47:33 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 04:47:33 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 04:47:33 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 04:47:33 | [INFO]    | Shard 0 : Received READY
+2021-11-09 04:47:52 | [INFO]    | Discordia 2.9.1
+2021-11-09 04:47:52 | [INFO]    | Connecting to Discord...
+2021-11-09 04:47:52 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 04:47:52 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 04:47:52 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 04:47:52 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 04:47:53 | [INFO]    | Shard 0 : Received READY
+2021-11-09 04:49:04 | [INFO]    | Discordia 2.9.1
+2021-11-09 04:49:04 | [INFO]    | Connecting to Discord...
+2021-11-09 04:49:04 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 04:49:04 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 04:49:05 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 04:49:05 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 04:49:05 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:21:19 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:21:19 | [INFO]    | Connecting to Discord...
+2021-11-09 05:21:20 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:21:20 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:21:20 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:21:20 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:21:20 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:25:21 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:25:21 | [INFO]    | Connecting to Discord...
+2021-11-09 05:25:22 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:25:22 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:25:22 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:25:22 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:25:22 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:26:41 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:26:41 | [INFO]    | Connecting to Discord...
+2021-11-09 05:26:42 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:26:42 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:26:42 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:26:42 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:26:43 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:27:13 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:27:13 | [INFO]    | Connecting to Discord...
+2021-11-09 05:27:13 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:27:13 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:27:13 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:27:13 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:27:14 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:27:38 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:27:38 | [INFO]    | Connecting to Discord...
+2021-11-09 05:27:38 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:27:38 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:27:38 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:27:38 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:27:39 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:27:53 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:27:53 | [INFO]    | Connecting to Discord...
+2021-11-09 05:27:53 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:27:53 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:27:53 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:27:53 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:27:54 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:29:24 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:29:24 | [INFO]    | Connecting to Discord...
+2021-11-09 05:29:24 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:29:24 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:29:25 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:29:25 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:29:25 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:30:48 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:30:48 | [INFO]    | Connecting to Discord...
+2021-11-09 05:30:49 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:30:49 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:30:49 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:30:49 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:30:49 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:31:02 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:31:02 | [INFO]    | Connecting to Discord...
+2021-11-09 05:31:03 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:31:03 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:31:03 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:31:03 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:31:03 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:31:36 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:31:36 | [INFO]    | Connecting to Discord...
+2021-11-09 05:31:36 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:31:36 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:31:37 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:31:37 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:31:37 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:32:43 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:32:43 | [INFO]    | Connecting to Discord...
+2021-11-09 05:32:43 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:32:43 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:32:44 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:32:44 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:32:44 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:33:14 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:33:14 | [INFO]    | Connecting to Discord...
+2021-11-09 05:33:14 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:33:14 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:33:15 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:33:15 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:33:15 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:33:37 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:33:37 | [INFO]    | Connecting to Discord...
+2021-11-09 05:33:37 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:33:37 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:33:37 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:33:37 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:33:38 | [INFO]    | Shard 0 : Received READY
+2021-11-09 05:34:00 | [INFO]    | Discordia 2.9.1
+2021-11-09 05:34:00 | [INFO]    | Connecting to Discord...
+2021-11-09 05:34:00 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 05:34:00 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 05:34:00 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 05:34:00 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 05:34:01 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:00:59 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:00:59 | [INFO]    | Connecting to Discord...
+2021-11-09 06:00:59 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:00:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:01:00 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:01:00 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:01:01 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:03:41 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:03:41 | [INFO]    | Connecting to Discord...
+2021-11-09 06:03:41 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:03:41 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:03:42 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:03:42 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:03:42 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:04:42 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:04:42 | [INFO]    | Connecting to Discord...
+2021-11-09 06:04:43 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:04:43 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:04:43 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:04:43 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:04:43 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:06:20 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:06:20 | [INFO]    | Connecting to Discord...
+2021-11-09 06:06:20 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:06:20 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:06:21 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:06:21 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:06:21 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:06:40 | [ERROR]   | 400 - Bad Request : POST https://discord.com/api/v7/channels/433542300220653578/messages
+2021-11-09 06:07:17 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:07:17 | [INFO]    | Connecting to Discord...
+2021-11-09 06:07:17 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:07:17 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:07:17 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:07:17 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:07:17 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:07:55 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:07:55 | [INFO]    | Connecting to Discord...
+2021-11-09 06:07:55 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:07:55 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:07:55 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:07:55 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:07:55 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:08:14 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:08:14 | [INFO]    | Connecting to Discord...
+2021-11-09 06:08:14 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:08:14 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:08:15 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:08:15 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:08:15 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:08:37 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:08:37 | [INFO]    | Connecting to Discord...
+2021-11-09 06:08:37 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:08:37 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:08:37 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:08:37 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:08:38 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:08:55 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:08:55 | [INFO]    | Connecting to Discord...
+2021-11-09 06:08:55 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:08:55 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:08:55 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:08:55 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:08:55 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:09:15 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:09:15 | [INFO]    | Connecting to Discord...
+2021-11-09 06:09:15 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:09:15 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:09:15 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:09:15 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:09:16 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:10:05 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:10:05 | [INFO]    | Connecting to Discord...
+2021-11-09 06:10:05 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:10:05 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:10:05 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:10:05 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:10:06 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:17:51 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:17:51 | [INFO]    | Connecting to Discord...
+2021-11-09 06:17:51 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:17:51 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:17:52 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:17:52 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:17:52 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:17:59 | [ERROR]   | 400 - Bad Request : POST https://discord.com/api/v7/channels/433542300220653578/messages
+2021-11-09 06:19:26 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:19:26 | [INFO]    | Connecting to Discord...
+2021-11-09 06:19:26 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:19:26 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:19:27 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:19:27 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:19:27 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:19:35 | [ERROR]   | 400 - Bad Request : POST https://discord.com/api/v7/channels/433542300220653578/messages
+2021-11-09 06:21:31 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:21:31 | [INFO]    | Connecting to Discord...
+2021-11-09 06:21:31 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:21:31 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:21:31 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:21:31 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:21:32 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:22:47 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:22:47 | [INFO]    | Connecting to Discord...
+2021-11-09 06:22:48 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:22:48 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:22:48 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:22:48 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:22:48 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:26:00 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:26:00 | [INFO]    | Connecting to Discord...
+2021-11-09 06:26:01 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:26:01 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:26:01 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:26:01 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:26:01 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:28:19 | [ERROR]   | 400 - Bad Request : POST https://discord.com/api/v7/channels/433542300220653578/messages
+2021-11-09 06:31:58 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:31:58 | [INFO]    | Connecting to Discord...
+2021-11-09 06:31:59 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:31:59 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:31:59 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:31:59 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:31:59 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:32:47 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:32:47 | [INFO]    | Connecting to Discord...
+2021-11-09 06:32:47 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:32:47 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:32:48 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:32:48 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:32:48 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:33:40 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:33:40 | [INFO]    | Connecting to Discord...
+2021-11-09 06:33:41 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:33:41 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:33:41 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:33:41 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:33:41 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:35:42 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:35:42 | [INFO]    | Connecting to Discord...
+2021-11-09 06:35:43 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:35:43 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:35:43 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:35:43 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:35:43 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:35:58 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:35:58 | [INFO]    | Connecting to Discord...
+2021-11-09 06:35:58 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:35:58 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:35:58 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:35:58 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:35:59 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:37:38 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:37:38 | [INFO]    | Connecting to Discord...
+2021-11-09 06:37:38 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:37:38 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:37:39 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:37:39 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:37:39 | [INFO]    | Shard 0 : Received READY
+2021-11-09 06:39:47 | [INFO]    | Discordia 2.9.1
+2021-11-09 06:39:47 | [INFO]    | Connecting to Discord...
+2021-11-09 06:39:48 | [INFO]    | Authenticated as Botteleitor Dev#3665
+2021-11-09 06:39:48 | [INFO]    | Launching shard 0 (1 out of 1)...
+2021-11-09 06:39:48 | [INFO]    | Shard 0 : Connected to wss://gateway.discord.gg
+2021-11-09 06:39:48 | [INFO]    | Shard 0 : Received HELLO
+2021-11-09 06:39:48 | [INFO]    | Shard 0 : Received READY

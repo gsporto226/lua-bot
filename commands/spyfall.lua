@@ -23,7 +23,7 @@ function Object.callback(self,args,rawarg)
 	local lobbyName = nil
 	args[1] = string.lower(args[1])
 	if possibleCommands[args[1]] then
-			possibleCommands[args[1]] = false					
+			possibleCommands[args[1]] = false
 			table.remove(args, 1)
 			for _,v in ipairs(args) do
 				if lobbyName then lobbyName = lobbyName .." ".. v else lobbyName = v end

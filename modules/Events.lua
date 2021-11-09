@@ -11,7 +11,9 @@ local Events = {
 	},
 	pendent = {
 		guildLoad = {}
-	}
+	},
+	redirections = {},
+	whitelistedCommands = {}
 }
 
 local function EndsWith(str1, str2)
@@ -19,30 +21,43 @@ local function EndsWith(str1, str2)
 end
 
 function Events.onMessage(msg)
-
 	--Check if its a command, if it is then attempt to run it
 	if msg.author.bot then return end
-	if not msg.guild then msg:reply("Excuse me sir, but I'm not employed to do private affairs!") return false end
+	local words = {}
+	for w in msg.content:gmatch("%g+") do
+		insert(words, w)
+	end
+	words.msg = msg
+	if #Events.redirections > 0 then
+		for _, redirector in ipairs(Events.redirections) do
+			local result = {redirector.inspector(words)}
+			if result and result[1] then
+				redirector.consumer(table.unpack(result))
+				return true
+			end			
+		end
+	end
 	local prefix = Events.prefix
 	local st = msg.content:find(Events.prefix)
 	if st ~= 1 then 
 		return 
 	else
-		local args = {}
-		for k in msg.content:gmatch("%g+") do
-			insert(args,k)
-		end
-		args.msg = msg
-
-
 		for _,v in ipairs(Events.magicalCharacters) do
 			if EndsWith(prefix,v) then
 				prefix = prefix:gsub("%"..v,"%%"..v) -- Ugly stuff here, we check if it ends with a magical character and 
 				break
 			end
 		end
-
-		local s,e = Commands:Run(remove(args,1):gsub(prefix,""),args,msg)
+		local command = remove(words, 1):gsub(prefix,"")
+		if not msg.guild then
+			if not Events.whitelistedCommands[command] then
+				msg:reply("Excuse me sir, but I'm not employed to do private affairs!")
+				return false
+			end
+			local s,e = Commands:Run(command, words, msg)
+		else
+			local s,e = Commands:Run(command, words, msg)
+		end
 	end
 end
 
@@ -77,6 +92,14 @@ function Events:callBack(eventType,eventKey,args)
 			break
 		end
 	end
+end
+
+function Events:registerRedirect(inspector, consumer)
+	table.insert(self.redirections, { inspector = inspector, consumer = consumer })
+end
+
+function Events:whitelistPrivateCommand(name)
+	self.whitelistedCommands[name] = true
 end
 
 function Events:__init()

@@ -17,6 +17,17 @@ function Utils.round(number)
 	return number-0.5
 end
 
+function Utils.pcount(table)
+	if table and type(table) == 'table' then
+		local c = 0
+		for _, _ in pairs(table) do
+			c = c + 1
+		end
+		return c
+	else
+		error('Expected argument to be a table')
+	end
+end
 
 function Utils.formatFromSeconds(time)
 	if type(time) == "string" then return time end
