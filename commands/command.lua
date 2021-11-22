@@ -3,6 +3,7 @@ local Object = {
 	name = "Command",
 	usage = "No use, its just a template and should be disabled",
 	cmdNames = {'command','template'},
+    subcommands = {},
 	disabled = true
 }
 
