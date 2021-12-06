@@ -4,6 +4,8 @@ local p = require('pretty-print').prettyPrint
 local http = require('coro-http')
 local cprocess = require("childprocess")
 local uv = require("uv")
+local url = require('url')
+local parseQuery = require('querystring').parse
 
 local wrap,running,resume,yield = coroutine.wrap,coroutine.running,coroutine.resume,coroutine.yield
 local insert,getn = table.insert,table.getn
@@ -123,9 +125,37 @@ function YoutubeHelper:searchYoutubeVideo(string)
 	end
 end
 
+function YoutubeHelper:getPlaylist(id)
+	local playlistId = id
+	local items = {}
+	local pageToken = nil
+	local res
+	repeat
+		if pageToken then
+			res = self:request("https://youtube.googleapis.com/youtube/v3/playlistItems?key=" .. self.DEVKEY .. "&playlistId=" .. playlistId .. "&maxResults=50&fields=nextPageToken,items(snippet(resourceId(videoId)))&part=snippet&pageToken=" .. pageToken)
+		else 
+			res = self:request("https://youtube.googleapis.com/youtube/v3/playlistItems?key=" .. self.DEVKEY .. "&playlistId=" .. playlistId .. "&maxResults=50&fields=nextPageToken,items(snippet(resourceId(videoId)))&part=snippet")
+		end
+		if res then
+			if res.items then
+				for _, id in ipairs(res.items) do
+					table.insert(items, id.snippet.resourceId.videoId)
+				end
+			end
+			if res.nextPageToken then
+				pageToken = res.nextPageToken
+			else
+				pageToken = nil
+			end
+		else
+			break
+		end
+	until not pageToken
+	return items
+end
+
 function YoutubeHelper:getURL(string)
 	local url = string:match("https*://[^%s]+")
-		
 	local youtube_string = "https://www.youtube.com/watch?v="
 	local info = nil
 	if not url then
@@ -139,6 +169,21 @@ function YoutubeHelper:getURL(string)
 	return youtube_string
 end
 
+
+function YoutubeHelper:getPlaylistId(string)
+	local url = url.parse(string)
+	if url and string.find(url.host, 'youtube') and url.query then
+		local params = parseQuery(url.query)
+		if params and params.list then
+			return params.list
+		end
+	end
+	return nil
+end
+
+function YoutubeHelper:videoUrlFromId(id)
+	return "https://www.youtube.com/watch?v="..id
+end
 
 --Takes string literals as arguments, extracts URL or SEACH STRING, grabs information if it can find a valid VIDEO or SONG and stores it on the OBJECT.
 function YoutubeHelper:getInfoFromURL(string, object)

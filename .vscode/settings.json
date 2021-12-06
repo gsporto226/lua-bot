@@ -2,5 +2,6 @@
     "Lua.diagnostics.globals": [
         "PokerPlanner",
         "Response"
-    ]
+    ],
+    "Lua.completion.autoRequire": false
 }

@@ -1,4 +1,5 @@
 local getenv = require('os').getenv
+local p = require('pretty-print').prettyPrint
 
 
 --TODO: REDO MUSIC UPDATE LOOP ITS TOO CONFUSING
@@ -36,6 +37,22 @@ function Music:getGuild(id)
 	return self.guilds[id]
 end
 
+
+function Music.fetchInfo(soundObject)
+	wrap(function() 
+		local info = YoutubeHelper:getInfoFromURL(soundObject.url, soundObject)
+		if info then
+			soundObject.title = info.title
+			soundObject.duration = info.duration
+			soundObject.id = info.id
+			soundObject.thumbnail = info.thumbnail
+		end
+		if soundObject.infoNeedsBroadcast then
+			soundObject.textchannel:send{embed = Response.embeds.youtube.nowPlaying(soundObject)}
+		end
+	end)()
+end
+
 function Music.addToQueue(self, args, requester, textchannel, voiceChannel, guildId)
 	--FIRST WE SEE IF ITS A VALID URL OR SEARCH REQUEST THEN WE PUT IT IN THE QUEUE!
 
@@ -54,33 +71,48 @@ function Music.addToQueue(self, args, requester, textchannel, voiceChannel, guil
 		end
 	end
 	if possibleArguments.playlist then
-		return false, "Playlists are nor supported atm."
-	end
-
-	--Create a placeholder sound object
-	local soundObject = {url=nil,id=nil,title=nil,duration=nil,requester=requester,textchannel=textchannel,voicechannel=voiceChannel}
-	soundObject.url = YoutubeHelper:getURL(literal)
-	if not soundObject.url then print("F") return false, "Unable to find any media." end
-	local guild = self:getGuild(guildId)
-	insert(guild.queue, soundObject)
-	self:warn(' inserted ',  soundObject ,' to guild ' .. guildId)
-	if not guild.currentlyPlaying then
-		guild.currentlyPlaying = (remove(guild.queue,1))
-		self:update(false, guildId)
-	end
-	local info = YoutubeHelper:getInfoFromURL(soundObject.url,soundObject)
-
-	if info then
-		soundObject.title = info.title
-		soundObject.duration = info.duration
-		soundObject.id = info.id
-		soundObject.thumbnail = info.thumbnail
-	end
-	
-	if soundObject.infoNeedsBroadcast then
-		soundObject.textchannel:send{embed = Response.embeds.youtube.nowPlaying(soundObject)}
+		local id = YoutubeHelper:getPlaylistId(literal)
+		local videos = YoutubeHelper:getPlaylist(id)
+		local firstSoundObject = nil
+		for _, v in ipairs(videos) do
+			local url = YoutubeHelper:videoUrlFromId(v)
+			local soundObject = {url=url,id=v,title='Fetching...',duration=0,requester=requester,textchannel=textchannel,voicechannel=voiceChannel}
+			local guild = self:getGuild(guildId)
+			insert(guild.queue, soundObject)
+			if not firstSoundObject then
+				firstSoundObject = soundObject
+			end
+			if not guild.currentlyPlaying then
+				guild.currentlyPlaying = (remove(guild.queue,1))
+				self:update(false, guildId)
+			end
+			Music.fetchInfo(soundObject)
+		end
+		textchannel:send{embed = Response.embeds.youtube.addedList(firstSoundObject, #videos)}
 	else
-		soundObject.textchannel:send{embed = Response.embeds.youtube.addedList(soundObject, 1)}--Temporarily only handles single musics
+		--Create a placeholder sound object
+		local soundObject = {url=nil,id=nil,title='Fetching...',duration=0,requester=requester,textchannel=textchannel,voicechannel=voiceChannel}
+		soundObject.url = YoutubeHelper:getURL(literal)
+		if not soundObject.url then print("F") return false, "Unable to find any media." end
+		local guild = self:getGuild(guildId)
+		insert(guild.queue, soundObject)
+		self:warn(' inserted ',  soundObject ,' to guild ' .. guildId)
+		if not guild.currentlyPlaying then
+			guild.currentlyPlaying = (remove(guild.queue,1))
+			self:update(false, guildId)
+		end
+		local info = YoutubeHelper:getInfoFromURL(soundObject.url,soundObject)
+		if info then
+			soundObject.title = info.title
+			soundObject.duration = info.duration
+			soundObject.id = info.id
+			soundObject.thumbnail = info.thumbnail
+		end
+		if soundObject.infoNeedsBroadcast then
+			soundObject.textchannel:send{embed = Response.embeds.youtube.nowPlaying(soundObject)}
+		else
+			soundObject.textchannel:send{embed = Response.embeds.youtube.addedList(soundObject, 1)}--Temporarily only handles single musics
+		end
 	end
 	return true
 	--[[if args[1]:find("soundcloud") then 
