@@ -15,7 +15,7 @@ local YoutubeHelper = {
 	name = "YoutubeHelper"
 }
 
---TODO: MOVE DURATION GET TO PLAYTIME OF SONG AND TITLE TOO! THIS WILL ENABLE US TO USE LESS DAILY REQUESTS
+-- TODO: MOVE DURATION GET TO PLAYTIME OF SONG AND TITLE TOO! THIS WILL ENABLE US TO USE LESS DAILY REQUESTS
 
 
 function YoutubeHelper:uglyFormat(duration)
@@ -120,8 +120,8 @@ function YoutubeHelper:searchYoutubeVideo(string)
 	local obj = self:request("https://www.googleapis.com/youtube/v3/search?&key="..self.DEVKEY.."&fields=items(id(videoId))&part=id&maxResults=1&q="..string.."&type=video")
 	if obj and not obj.error and obj.items[1] then
 		return obj.items[1].id.videoId
-	else 
-		return nil 
+	else
+		return nil
 	end
 end
 
@@ -133,7 +133,7 @@ function YoutubeHelper:getPlaylist(id)
 	repeat
 		if pageToken then
 			res = self:request("https://youtube.googleapis.com/youtube/v3/playlistItems?key=" .. self.DEVKEY .. "&playlistId=" .. playlistId .. "&maxResults=50&fields=nextPageToken,items(snippet(resourceId(videoId)))&part=snippet&pageToken=" .. pageToken)
-		else 
+		else
 			res = self:request("https://youtube.googleapis.com/youtube/v3/playlistItems?key=" .. self.DEVKEY .. "&playlistId=" .. playlistId .. "&maxResults=50&fields=nextPageToken,items(snippet(resourceId(videoId)))&part=snippet")
 		end
 		if res then
@@ -160,7 +160,7 @@ function YoutubeHelper:getURL(string)
 	local info = nil
 	if not url then
 		local searchString = self:searchYoutubeVideo(string)
-		if searchString then 
+		if searchString then
 			youtube_string = youtube_string .. searchString
 		else
 			return false
@@ -211,7 +211,7 @@ function YoutubeHelper:getInfoFromURL(string, object)
 		--[[print("Process created ", process)
 		process.stderr:on('data',function(data)
 			print("Data on information process!")
-			if data ~= nil then 
+			if data ~= nil then
 				info = json.decode(data)
 				if info ~= nil then
 					assert(resume(thread))

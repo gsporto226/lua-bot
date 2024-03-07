@@ -34,7 +34,7 @@ function Events.onMessage(msg)
 			if result and result[1] then
 				redirector.consumer(table.unpack(result))
 				return true
-			end			
+			end
 		end
 	end
 	local prefix = Events.prefix
