@@ -10,7 +10,7 @@ First install luvit following these [instructions](https://luvit.io/install.html
 
 Next you need to get `libsodium`, `libopus` and `ffmpeg`, these should be available to install using your system's package manager.  
 
-For instance this is how you would install both packages on Arch linux:
+For instance this is how you would install them on Arch linux:
 ```bash
 sudo pacman -S libsodium opus ffmpeg
 ```
